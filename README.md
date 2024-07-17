@@ -19,6 +19,7 @@ Contributions are welcome.
 - [Defence Equipment & Support graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
 - [Medicines & Healthcare products Regulatory Agency Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/ofgem-graduate-development-programme)
+- [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/?sType=ea_landingpage)
 
 ## Finance
@@ -50,7 +51,7 @@ Contributions are welcome.
 
 ## Local government
 
-- [Impact: The Local Government Graduate Programme](https://www.local.gov.uk/impact-local-government-graduate-programme-candidates)
+- [Impact: The Local Government Graduate Programme](https://www.local.gov.uk/impact-local-government-graduate-programme-candidates) (previously called NGDP)
 - [Transport for London graduate scheme](https://tfl.gov.uk/corporate/careers/graduates)
 - [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/)
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme)
