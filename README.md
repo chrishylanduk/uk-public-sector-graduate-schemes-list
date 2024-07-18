@@ -21,6 +21,7 @@ Contributions are welcome.
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/ofgem-graduate-development-programme)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/?sType=ea_landingpage)
+- [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 
 ## Finance
 
@@ -55,6 +56,7 @@ Contributions are welcome.
 - [Transport for London graduate scheme](https://tfl.gov.uk/corporate/careers/graduates)
 - [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/)
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme)
+- [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme)
 
 ## Healthcare
 
