@@ -23,6 +23,7 @@ Contributions are welcome.
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/?sType=ea_landingpage)
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
+- [Science and Technology Facilities Council graduates](https://stfccareers.co.uk/graduates/)
 
 ## Finance
 
