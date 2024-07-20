@@ -24,6 +24,7 @@ Contributions are welcome.
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
 - [Science and Technology Facilities Council graduates](https://stfccareers.co.uk/graduates/)
+- [HS2 graduate programme](https://www.hs2.org.uk/jobs-and-skills/careers-with-hs2-ltd/apprentices-and-graduates/)
 
 ## Finance
 
@@ -31,6 +32,10 @@ Contributions are welcome.
 - [Financial Conduct Authority graduate schemes](https://www.fca.org.uk/careers/early-careers)
 - [UK Government Investments graduate schemes](https://www.ukgi.org.uk/working-for-us/graduate-programme/)
 - [National Audit Office (NAO) Chartered Accountancy Training Scheme](https://naoaccountancyscheme.co.uk)
+
+## Northern Ireland
+
+- [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net)
   
 ## Intelligence agencies
 
@@ -59,6 +64,14 @@ Contributions are welcome.
 - [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/)
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme)
 - [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme)
+- [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme)
+- [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx)
+- [Basildon Council graduate programme](https://www.basildon.gov.uk/article/4342/Graduate-recruitment-at-Basildon-Council)
+- [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme)
+- [Suffolk Graduate Partnership](https://recruitment.westsuffolk.gov.uk/workforce/graduates.cfm)
+- [Solihull Council graduate programmes](https://www.solihull.gov.uk/jobs-and-training/graduate-opportunities)
+- [Worcestershire County Council graduate programme](https://www.worcestershire.gov.uk/jobs-and-careers/graduates)
+- [Rhondda Cynon Taff Council Graduate Programme](https://www.rctcbc.gov.uk/EN/Resident/JobsandTraining/Jobs/ApprenticeshipsGraduateSchemes/GraduateScheme/AbouttheGraduateProgramme.aspx)
 
 ## Healthcare
 
