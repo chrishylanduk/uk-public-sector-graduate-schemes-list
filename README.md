@@ -6,7 +6,7 @@ Contributions are welcome.
 ## Civil Service
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk)
-- [HMRC Tax Professional](https://www.gov.uk/guidance/tax-professional-development-programme)
+- [HMRC Tax Specialist Programme](https://www.gov.uk/guidance/tax-professional-development-programme)
 - [HM Treasury Graduate Programme](https://www.hmtreasurycareers.co.uk/graduate-programme/application-process-timeline/)
 - [Competition and Markets Authority Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
 - [Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure)
