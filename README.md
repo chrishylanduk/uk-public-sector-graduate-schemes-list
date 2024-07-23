@@ -8,34 +8,47 @@ Contributions are welcome.
 - [Civil Service Fast Stream](https://www.faststream.gov.uk)
 - [HMRC Tax Specialist Programme](https://www.gov.uk/guidance/tax-professional-development-programme)
 - [HM Treasury Graduate Programme](https://www.hmtreasurycareers.co.uk/graduate-programme/application-process-timeline/)
-- [Competition and Markets Authority Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
+- [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
 - [Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure)
 - [International Trade Trainee Development Programme](https://itdptrade.co.uk/about-the-programme/)
-- [Department of Health & Social Care Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) (no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open)
+- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) (no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open)
 
 ## Agencies and other public bodies
 
-- [Defence Science and Technology Laboratory graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student)
-- [Defence Equipment & Support graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
-- [Medicines & Healthcare products Regulatory Agency Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
+- [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student)
+- [Defence Equipment & Support (DE&S) graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
+- [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/ofgem-graduate-development-programme)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/?sType=ea_landingpage)
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
-- [Science and Technology Facilities Council graduates](https://stfccareers.co.uk/graduates/)
+- [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/)
 - [HS2 graduate programme](https://www.hs2.org.uk/jobs-and-skills/careers-with-hs2-ltd/apprentices-and-graduates/)
 
 ## Finance
 
 - [Bank of England graduate schemes](https://www.bankofengland.co.uk/careers/early-careers)
-- [Financial Conduct Authority graduate schemes](https://www.fca.org.uk/careers/early-careers)
-- [UK Government Investments graduate schemes](https://www.ukgi.org.uk/working-for-us/graduate-programme/)
+- [Financial Conduct Authority (FCA) graduate schemes](https://www.fca.org.uk/careers/early-careers)
+- [UK Government Investments (UKGI) graduate schemes](https://www.ukgi.org.uk/working-for-us/graduate-programme/)
 - [National Audit Office (NAO) Chartered Accountancy Training Scheme](https://naoaccountancyscheme.co.uk)
+
+## Law
+
+- [Legal trainee scheme, Government Legal Profession](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply)
+- [Legal trainee scheme, Crown Prosecution Service](https://www.cps.gov.uk/careers/legal-trainee)
 
 ## Northern Ireland
 
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net)
+
+## Wales
+
+- [All Wales Public Service Graduate Programme](https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme)
+
+## Scotland
+
+- [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers)
   
 ## Intelligence agencies
 
