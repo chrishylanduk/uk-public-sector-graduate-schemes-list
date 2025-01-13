@@ -10,7 +10,6 @@ Contributions are welcome.
 - [HM Treasury Graduate Programme](https://www.hmtreasurycareers.co.uk/graduate-programme/application-process-timeline/)
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
 - [Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure)
-- [International Trade Trainee Development Programme](https://itdptrade.co.uk/about-the-programme/)
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) (no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open)
 
 ## Agencies and other public bodies
@@ -18,7 +17,7 @@ Contributions are welcome.
 - [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student)
 - [Defence Equipment & Support (DE&S) graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
-- [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/ofgem-graduate-development-programme)
+- [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#ofgem-graduate-development-programme)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/?sType=ea_landingpage)
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
@@ -56,7 +55,7 @@ Contributions are welcome.
 
 ## Houses of Parliament
 
-- [Houses of Parliament Graduate Development Programme](https://www.parliament.uk/about/working/graduateprogramme/)
+- [Houses of Parliament Graduate Development Programme](https://www.parliament.uk/about/careers/graduate-programme/)
 
 ## Teaching
 
@@ -91,7 +90,6 @@ Contributions are welcome.
 - [NHS Graduate Management Training Scheme](https://graduates.nhs.uk)
 - [NHS Scotland Management Training Scheme](https://www.mts.scot.nhs.uk)
 - [NHS Wales Graduate Management Scheme](https://heiw.nhs.wales/careers/nhs-wales-careers/roles/corporate-services/management/nhs-wales-graduate-management-scheme/)
-- [NHS England Digital Graduate Scheme](https://digital.nhs.uk/careers/early-careers/graduate-scheme/)
 - [NHS England Scientist Training programme](https://www.nshcs.hee.nhs.uk/programmes/stp)
 
 ## Police
@@ -99,7 +97,7 @@ Contributions are welcome.
 - [Police Now](http://www.policenow.org.uk/)
 - [British Transport Police Graduate Programme](https://careers.btp.police.uk/roles/graduate-programme/)
 - [Police Degree Holder Entry Programme (DHEP)](https://www.joiningthepolice.co.uk/application-process/ways-in-to-policing/degree-holder-entry-programme-dhep)
-- [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/police-staff-roles/graduate-opportunities/)
+- [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/)
 
 ## Public corporations
 
