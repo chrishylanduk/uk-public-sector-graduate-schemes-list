@@ -1,0 +1,24 @@
+{
+  "name": "uk-public-sector-graduate-schemes-list",
+  "version": "1.0.0",
+  "description": "Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list/issues"
+  },
+  "homepage": "https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list#readme",
+  "dependencies": {
+    "marked": "^16.3.0"
+  }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="index,follow">
+    {{ canonical }}
+    {{ metaOg }}
+    {{ metaTwitter }}
+    {{ jsonLd }}
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-wrapper">
+      <header>
+        <h1>{{ title }}</h1>
+        {{ intro }}
+      </header>
+      <nav aria-label="Sections" class="site-nav">
+        <h2 class="visually-hidden">Sections</h2>
+        <details class="site-nav__accordion">
+          <summary class="site-nav__summary" aria-controls="site-nav-mobile">Sections</summary>
+          <div class="site-nav__content" id="site-nav-mobile">
+            <ul class="site-nav__list">
+              {{ nav }}
+            </ul>
+          </div>
+        </details>
+        <ul class="site-nav__list site-nav__list--desktop">
+          {{ nav }}
+        </ul>
+      </nav>
+      <main id="main-content">
+        {{ content }}
+      </main>
+      <footer>
+        <p>Last updated on {{ lastUpdated }}.</p>
+        <p>The list content is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a>, <a href="https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list" target="_blank" rel="noopener">the code</a> is released under <a href="https://unlicense.org" target="_blank" rel="noopener">The Unlicense</a>.</p>
+        <p>This site has no adverts or trackers. Maintained by Chris Hyland, with community contributions.</p>
+      </footer>
+    </div>
+  </body>
+</html>

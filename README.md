@@ -1,12 +1,11 @@
-# List of UK public sector graduate schemes
+# All UK public sector graduate schemes
 Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
 ### Something wrong or missing? 
 Please either:
 1. [Fill out this one-question form](https://forms.office.com/r/KL0yJtLdgh)
 2. Email [joblist.culminate939@simplelogin.com](mailto:joblist.culminate939@simplelogin.com)
-3. Submit a GitHub pull request
-
+3. [Submit a GitHub pull request](https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list/pulls)
 
 ## Civil Service
 
