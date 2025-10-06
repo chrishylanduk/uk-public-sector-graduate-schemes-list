@@ -61,19 +61,14 @@ button:focus-visible,
 }
 
 header {
-  padding-bottom: 1rem;
   border-bottom: 3px solid #e5e5e5;
   margin-bottom: 2rem;
 }
 
 header h1 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 1rem;
   font-size: clamp(2rem, 5vw, 2.5rem);
   line-height: 1;
-}
-
-header p {
-  margin: 0;
 }
 
 .lead {
