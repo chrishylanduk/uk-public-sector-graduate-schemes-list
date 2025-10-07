@@ -1,9 +1,11 @@
 :root {
   color-scheme: light;
-  --text-color: #111111;
+
+  --text-color: #111;
   --background-color: #fcfcfc;
   --accent-color: #005ea5;
   --accent-focus: #ffbf47;
+
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -25,6 +27,21 @@ a {
   text-decoration-thickness: 0.08em;
 }
 
+ol,
+ul {
+  padding-left: 1.2rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: #fff;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+}
+
 a:focus-visible,
 button:focus-visible,
 .skip-link:focus-visible {
@@ -32,26 +49,15 @@ button:focus-visible,
   outline-offset: 2px;
 }
 
-.skip-link {
-  position: absolute;
-  left: -999px;
-  top: 0;
-  background: #ffffff;
-  color: var(--text-color);
-  padding: 0.5rem 1rem;
-  z-index: 1000;
-}
-
 .visually-hidden {
-  position: absolute;
-  width: 1px;
+  /* stylelint-disable-next-line property-no-deprecated */
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   height: 1px;
-  padding: 0;
-  margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  position: absolute;
   white-space: nowrap;
-  border: 0;
+  width: 1px;
 }
 
 .site-wrapper {
@@ -110,7 +116,7 @@ header h1 {
 .site-nav__accordion {
   border: 1px solid #d9d9d9;
   border-radius: 0.5rem;
-  background: #ffffff;
+  background: #fff;
   overflow: hidden;
 }
 
@@ -139,7 +145,7 @@ header h1 {
   content: "";
   border-style: solid;
   border-width: 0.35rem 0.35rem 0;
-  border-color: currentColor transparent transparent;
+  border-color: currentcolor transparent transparent;
   margin-left: 0.6rem;
   transition: transform 0.2s ease;
 }
@@ -150,7 +156,7 @@ header h1 {
 
 .site-nav__content {
   display: none;
-  padding: 1rem 1rem 1rem;
+  padding: 1rem;
   border-top: 1px solid #d9d9d9;
 }
 
@@ -196,11 +202,6 @@ section h3 {
   font-size: 1.1rem;
 }
 
-ol,
-ul {
-  padding-left: 1.2rem;
-}
-
 footer {
   border-top: 3px solid #e5e5e5;
   margin-top: 1.5rem;
@@ -209,7 +210,7 @@ footer {
   line-height: 1;
 }
 
-@media (min-width: 60rem) {
+@media (width >= 60rem) {
   .site-wrapper {
     display: grid;
     grid-template-columns: 17rem 1fr;
