@@ -1,31 +1,31 @@
-const fs = require('fs');
-const path = require('path');
-const { marked } = require('marked');
+const fs = require("fs");
+const path = require("path");
+const { marked } = require("marked");
 
-const projectRoot = path.resolve(__dirname, '..');
-const readmePath = path.join(projectRoot, 'README.md');
-const templatePath = path.join(projectRoot, 'templates', 'layout.html');
-const staticDir = path.join(projectRoot, 'static');
-const distDir = path.join(projectRoot, 'dist');
-const outputHtmlPath = path.join(distDir, 'index.html');
+const projectRoot = path.resolve(__dirname, "..");
+const readmePath = path.join(projectRoot, "README.md");
+const templatePath = path.join(projectRoot, "templates", "layout.html");
+const staticDir = path.join(projectRoot, "static");
+const distDir = path.join(projectRoot, "dist");
+const outputHtmlPath = path.join(distDir, "index.html");
 
 const slugCounts = new Map();
 
 function slugify(value) {
-  const plainValue = String(value ?? '');
+  const plainValue = String(value ?? "");
   const plainText = plainValue
     .toLowerCase()
-    .replace(/<[^>]*>/g, '')
-    .replace(/&[a-z]+;/g, '')
+    .replace(/<[^>]*>/g, "")
+    .replace(/&[a-z]+;/g, "")
     .trim();
 
   let base = plainText
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-');
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
 
   if (!base) {
-    base = 'section';
+    base = "section";
   }
 
   const count = slugCounts.get(base) || 0;
@@ -37,16 +37,16 @@ function slugify(value) {
 function escapeHtml(value) {
   return value.replace(/[&<>"']/g, (char) => {
     switch (char) {
-      case '&':
-        return '&amp;';
-      case '<':
-        return '&lt;';
-      case '>':
-        return '&gt;';
+      case "&":
+        return "&amp;";
+      case "<":
+        return "&lt;";
+      case ">":
+        return "&gt;";
       case '"':
-        return '&quot;';
+        return "&quot;";
       case "'":
-        return '&#39;';
+        return "&#39;";
       default:
         return char;
     }
@@ -78,53 +78,56 @@ function createRenderer({ collectNav = false, navItems = [] } = {}) {
 
   renderer.link = function link(token) {
     const html = defaultLink.call(this, token);
-    const href = token.href || '';
+    const href = token.href || "";
 
-    if (!/^https?:\/\//i.test(href) || html.includes('target=')) {
+    if (!/^https?:\/\//i.test(href) || html.includes("target=")) {
       return html;
     }
 
-    return html.replace('<a ', '<a target="_blank" rel="noopener" ');
+    return html.replace("<a ", '<a target="_blank" rel="noopener" ');
   };
 
   return renderer;
 }
 
 function buildSite() {
-  const markdown = fs.readFileSync(readmePath, 'utf8');
-  const template = fs.readFileSync(templatePath, 'utf8');
+  const markdown = fs.readFileSync(readmePath, "utf8");
+  const template = fs.readFileSync(templatePath, "utf8");
 
   const tokens = marked.lexer(markdown);
   const contentTokens = [];
 
-  let pageTitle = 'UK public sector graduate schemes';
+  let pageTitle = "UK public sector graduate schemes";
   const introHtmlParts = [];
-  let plainIntro = '';
+  let plainIntro = "";
   let hasTitle = false;
-  let calloutHeading = '';
+  let calloutHeading = "";
   let calloutTokens = null;
   let introParagraphs = 0;
 
-  const feedbackHeading = 'Something wrong or missing?';
+  const feedbackHeading = "Something wrong or missing?";
 
   for (let i = 0; i < tokens.length; i += 1) {
     const token = tokens[i];
 
-    if (!hasTitle && token.type === 'heading' && token.depth === 1) {
+    if (!hasTitle && token.type === "heading" && token.depth === 1) {
       pageTitle = token.text.trim();
       hasTitle = true;
       continue;
     }
 
-    if (hasTitle && token.type === 'paragraph' && introParagraphs < 2) {
-      const introContent = marked.parser([token], { mangle: false, headerIds: false });
+    if (hasTitle && token.type === "paragraph" && introParagraphs < 2) {
+      const introContent = marked.parser([token], {
+        mangle: false,
+        headerIds: false,
+      });
 
       if (introParagraphs === 0) {
         const leadHtml = introContent
           .replace(/^<p>/, '<p class="lead">')
-          .replace(/<\/p>$/, '</p>');
+          .replace(/<\/p>$/, "</p>");
         introHtmlParts.push(leadHtml);
-        plainIntro = leadHtml.replace(/<[^>]+>/g, '').trim();
+        plainIntro = leadHtml.replace(/<[^>]+>/g, "").trim();
       } else {
         introHtmlParts.push(introContent.trim());
       }
@@ -135,7 +138,7 @@ function buildSite() {
 
     if (
       !calloutTokens &&
-      token.type === 'heading' &&
+      token.type === "heading" &&
       token.depth === 3 &&
       token.text.trim().toLowerCase() === feedbackHeading.toLowerCase()
     ) {
@@ -143,7 +146,7 @@ function buildSite() {
       let nextIndex = tokens.length;
       for (let j = i + 1; j < tokens.length; j += 1) {
         const nextToken = tokens[j];
-        if (nextToken.type === 'heading' && nextToken.depth <= token.depth) {
+        if (nextToken.type === "heading" && nextToken.depth <= token.depth) {
           nextIndex = j;
           break;
         }
@@ -156,7 +159,7 @@ function buildSite() {
       continue;
     }
 
-    if (!hasTitle && token.type === 'space') {
+    if (!hasTitle && token.type === "space") {
       continue;
     }
 
@@ -172,53 +175,61 @@ function buildSite() {
     headerIds: false,
   });
 
-  let calloutHtml = '';
+  let calloutHtml = "";
   if (calloutTokens) {
     const calloutRenderer = createRenderer();
-    const calloutBody = marked.parser(calloutTokens, {
-      renderer: calloutRenderer,
-      mangle: false,
-      headerIds: false,
-    }).trim();
+    const calloutBody = marked
+      .parser(calloutTokens, {
+        renderer: calloutRenderer,
+        mangle: false,
+        headerIds: false,
+      })
+      .trim();
 
     if (calloutBody) {
       calloutHtml = [
         '<div class="feedback-callout" role="note" aria-label="How to suggest updates">',
         `<p class="feedback-callout__title"><strong>${escapeHtml(calloutHeading || feedbackHeading)}</strong></p>`,
         calloutBody,
-        '</div>',
-      ].join('\n');
+        "</div>",
+      ].join("\n");
     }
   }
   const descriptionSource = plainIntro || pageTitle;
   const description = descriptionSource;
 
-  const defaultSiteUrl = 'https://publicsectorgradschemes.co.uk';
-  const siteUrlEnv = process.env.SITE_URL ? process.env.SITE_URL.trim() : '';
+  const defaultSiteUrl = "https://publicsectorgradschemes.co.uk";
+  const siteUrlEnv = process.env.SITE_URL ? process.env.SITE_URL.trim() : "";
   const siteUrlSource = siteUrlEnv || defaultSiteUrl;
-  const normalizedSiteUrl = siteUrlSource.replace(/\/+$/, '');
-  const pageUrl = normalizedSiteUrl ? `${normalizedSiteUrl}/` : '';
+  const normalizedSiteUrl = siteUrlSource.replace(/\/+$/, "");
+  const pageUrl = normalizedSiteUrl ? `${normalizedSiteUrl}/` : "";
 
-  const canonicalTag = pageUrl ? `<link rel="canonical" href="${escapeHtml(pageUrl)}">` : '';
+  const canonicalTag = pageUrl
+    ? `<link rel="canonical" href="${escapeHtml(pageUrl)}">`
+    : "";
 
   const ogTags = [
     '<meta property="og:type" content="website">',
-    pageUrl ? `<meta property="og:url" content="${escapeHtml(pageUrl)}">` : '',
+    pageUrl ? `<meta property="og:url" content="${escapeHtml(pageUrl)}">` : "",
     `<meta property="og:title" content="${escapeHtml(pageTitle)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:site_name" content="${escapeHtml(pageTitle)}">`,
-  ].filter(Boolean).join('\n    ');
+  ]
+    .filter(Boolean)
+    .join("\n    ");
 
   const twitterTags = [
     '<meta name="twitter:card" content="summary">',
     `<meta name="twitter:title" content="${escapeHtml(pageTitle)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
-    pageUrl ? `<meta name="twitter:url" content="${escapeHtml(pageUrl)}">` : '',
-  ].filter(Boolean).join('\n    ');
+    pageUrl ? `<meta name="twitter:url" content="${escapeHtml(pageUrl)}">` : "",
+  ]
+    .filter(Boolean)
+    .join("\n    ");
 
   const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'WebPage',
+    "@context": "https://schema.org",
+    "@type": "WebPage",
     name: pageTitle,
     description,
   };
@@ -228,34 +239,38 @@ function buildSite() {
   }
 
   structuredData.publisher = {
-    '@type': 'Person',
-    name: 'Chris Hyland',
+    "@type": "Person",
+    name: "Chris Hyland",
   };
 
   const jsonLd = `<script type="application/ld+json">\n${JSON.stringify(structuredData, null, 2)}\n    </script>`;
 
-  const introHtml = introHtmlParts.join('\n\n        ');
+  const introHtml = introHtmlParts.join("\n\n        ");
 
   const navHtml = navItems
     .map((item) => {
-      const className = item.depth === 3 ? ' class="nav-item--sub"' : '';
+      const className = item.depth === 3 ? ' class="nav-item--sub"' : "";
       return `<li${className}><a href="#${item.id}">${escapeHtml(item.text)}</a></li>`;
     })
-    .join('\n          ');
+    .join("\n          ");
 
-  const contentWithCalloutHtml = calloutHtml ? `${contentHtml}\n${calloutHtml}` : contentHtml;
+  const contentWithCalloutHtml = calloutHtml
+    ? `${contentHtml}\n${calloutHtml}`
+    : contentHtml;
 
   const replacements = {
-    '{{ title }}': escapeHtml(pageTitle),
-    '{{ description }}': escapeHtml(description),
-    '{{ intro }}': introHtml || '',
-    '{{ nav }}': navHtml || '<li><span>No sections available</span></li>',
-    '{{ content }}': contentWithCalloutHtml,
-    '{{ lastUpdated }}': new Intl.DateTimeFormat('en-GB', { dateStyle: 'long' }).format(new Date()),
-    '{{ canonical }}': canonicalTag,
-    '{{ metaOg }}': ogTags,
-    '{{ metaTwitter }}': twitterTags,
-    '{{ jsonLd }}': jsonLd,
+    "{{ title }}": escapeHtml(pageTitle),
+    "{{ description }}": escapeHtml(description),
+    "{{ intro }}": introHtml || "",
+    "{{ nav }}": navHtml || "<li><span>No sections available</span></li>",
+    "{{ content }}": contentWithCalloutHtml,
+    "{{ lastUpdated }}": new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "long",
+    }).format(new Date()),
+    "{{ canonical }}": canonicalTag,
+    "{{ metaOg }}": ogTags,
+    "{{ metaTwitter }}": twitterTags,
+    "{{ jsonLd }}": jsonLd,
   };
 
   let finalHtml = template;
@@ -279,7 +294,9 @@ function buildSite() {
       }
     });
   } else {
-    console.warn('Warning: static assets directory not found, expected at static/');
+    console.warn(
+      "Warning: static assets directory not found, expected at static/",
+    );
   }
 
   console.log(`Built ${path.relative(projectRoot, outputHtmlPath)}`);

@@ -1,10 +1,13 @@
 # All UK public sector graduate schemes
+
 Links to all UK public sector graduate schemes and graduate jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
 
 Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
-### Something wrong or missing? 
+### Something wrong or missing?
+
 Please either:
+
 1. [Fill out this one-question form](https://forms.office.com/r/KL0yJtLdgh)
 2. Email [feedback@publicsectorgradschemes.co.uk](mailto:feedback@publicsectorgradschemes.co.uk)
 3. [Submit a GitHub pull request](https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list/pulls)
@@ -13,7 +16,7 @@ Please either:
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk)
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
-- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) *(no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open; see [March 2025 advert (archived)](https://web.archive.org/web/20250824154059/https://findajob.dwp.gov.uk/details/16299166))*
+- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) _(no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open; see [March 2025 advert (archived)](https://web.archive.org/web/20250824154059/https://findajob.dwp.gov.uk/details/16299166))_
 - [Government Economic Service Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment)
 - [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme)
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/)
@@ -57,7 +60,7 @@ Please either:
 ## Scotland
 
 - [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers)
-  
+
 ## Intelligence agencies
 
 - [MI5](https://www.mi5.gov.uk/careers/opportunities/graduates)
