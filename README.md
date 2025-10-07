@@ -6,7 +6,7 @@ Many of these organisations also offer entry-level roles and apprenticeships tha
 ### Something wrong or missing? 
 Please either:
 1. [Fill out this one-question form](https://forms.office.com/r/KL0yJtLdgh)
-2. Email [joblist.culminate939@simplelogin.com](mailto:joblist.culminate939@simplelogin.com)
+2. Email [feedback@publicsectorgradschemes.co.uk](mailto:feedback@publicsectorgradschemes.co.uk)
 3. [Submit a GitHub pull request](https://github.com/chrishylanduk/uk-public-sector-graduate-schemes-list/pulls)
 
 ## Civil Service
