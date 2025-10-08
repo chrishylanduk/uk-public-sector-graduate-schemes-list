@@ -21,9 +21,12 @@ Please either:
 - [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme)
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/)
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates)
+- [Home Office Digital, Data and Technology Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/)
+- Yorkshire Development Scheme
 
 ## Agencies and other public bodies
 
+- [AWE Nuclear Security Technologies EVOLVE graduate programme](https://www.awe.co.uk/careers/early-careers/graduate-programme-evolve/)
 - [Defence Equipment & Support (DE&S) graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
 - [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/)
