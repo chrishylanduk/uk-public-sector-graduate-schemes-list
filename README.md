@@ -4,7 +4,7 @@ Links to all UK public sector graduate schemes and graduate jobs across national
 
 Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
-### Something wrong or missing?
+### Is something wrong or missing?
 
 Please either:
 

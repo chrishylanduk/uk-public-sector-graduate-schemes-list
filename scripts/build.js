@@ -109,7 +109,7 @@ function buildSite() {
   let calloutTokens = null;
   let introParagraphs = 0;
 
-  const feedbackHeading = "Something wrong or missing?";
+  const feedbackHeading = "Is something wrong or missing?";
 
   for (let i = 0; i < tokens.length; i += 1) {
     const token = tokens[i];
