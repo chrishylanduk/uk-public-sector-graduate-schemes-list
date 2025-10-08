@@ -21,7 +21,8 @@ Please either:
 - [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme)
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/)
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates)
-- [Home Office Digital, Data and Technology Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/)
+- [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes)
+- [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/)
 - Yorkshire Development Scheme
 
 ## Agencies and other public bodies
