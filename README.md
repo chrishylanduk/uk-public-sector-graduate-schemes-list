@@ -18,6 +18,7 @@ Please either:
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) _(no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open; see [March 2025 advert (archived)](https://web.archive.org/web/20250824154059/https://findajob.dwp.gov.uk/details/16299166))_
 - [Government Economic Service Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment)
+- [Government Operational Research Service - Mainstream Recruitment Level 2](https://www.gov.uk/guidance/government-operational-research-service-mainstream-recruitment)
 - [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme)
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/)
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates)
