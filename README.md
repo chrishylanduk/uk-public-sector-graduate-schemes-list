@@ -83,9 +83,15 @@ Please either:
 
 ## Local government
 
+### Country-wide
+
+- [Impact: The Local Government Graduate Programme](https://www.local.gov.uk/impact-local-government-graduate-programme-candidates) (previously called NGDP)
+- [Pathways to Planning](https://www.local.gov.uk/pathways-to-planning)
+
+### Area-specific
+
 - [Basildon Council graduate programme](https://www.basildon.gov.uk/article/4342/Graduate-recruitment-at-Basildon-Council)
 - [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx)
-- [Impact: The Local Government Graduate Programme](https://www.local.gov.uk/impact-local-government-graduate-programme-candidates) (previously called NGDP)
 - [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme)
 - [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme)
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme)
