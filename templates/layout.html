@@ -55,9 +55,44 @@
       <header>
         <h1>{{ title }}</h1>
         {{ intro }}
+        <form class="site-search" role="search" data-js="search-form">
+          <label class="site-search__label" for="scheme-search"
+            >Search graduate schemes</label
+          >
+          <div class="site-search__controls">
+            <input
+              type="search"
+              id="scheme-search"
+              name="scheme-search"
+              class="site-search__input"
+              aria-describedby="search-help"
+              autocomplete="off"
+              spellcheck="false"
+              enterkeyhint="done"
+            />
+            <button
+              type="button"
+              class="site-search__clear"
+              data-js="clear-search"
+              hidden
+              aria-controls="scheme-search"
+              aria-label="Clear search"
+            >
+              Clear
+            </button>
+          </div>
+          <p id="search-help" class="site-search__help">
+            Start typing to filter the list. Matches update as you type.
+          </p>
+        </form>
       </header>
+      <p
+        id="results-summary"
+        class="site-search__summary"
+        aria-live="polite"
+      ></p>
       <nav aria-label="Sections" class="site-nav">
-        <h2 class="visually-hidden">Sections</h2>
+        <h2 class="site-nav__title">Sections</h2>
         <details class="site-nav__accordion">
           <summary class="site-nav__summary" aria-controls="site-nav-mobile">
             Sections
@@ -100,5 +135,6 @@
         </p>
       </footer>
     </div>
+    <script src="./search.js" defer></script>
   </body>
 </html>
