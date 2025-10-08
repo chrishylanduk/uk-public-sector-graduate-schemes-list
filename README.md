@@ -35,6 +35,7 @@ Please either:
 - [HS2 graduate programme](https://www.hs2.org.uk/jobs-and-skills/careers-with-hs2-ltd/apprentices-and-graduates/)
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
+- [National Highways graduate programmes](https://nationalhighways.co.uk/careers/career-programmes/graduate-programmes/)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme)
