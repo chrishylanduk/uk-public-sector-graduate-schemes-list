@@ -31,6 +31,7 @@ Please either:
 - [Defence Equipment & Support (DE&S) graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section)
 - [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student)
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/)
+- [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/)
 - [HS2 graduate programme](https://www.hs2.org.uk/jobs-and-skills/careers-with-hs2-ltd/apprentices-and-graduates/)
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme)
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
