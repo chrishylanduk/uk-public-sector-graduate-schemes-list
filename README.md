@@ -1,6 +1,6 @@
 # All UK public sector graduate schemes
 
-Links to all UK public sector graduate schemes and graduate jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
+Links to all UK public sector grad schemes and grad jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
 
 Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
