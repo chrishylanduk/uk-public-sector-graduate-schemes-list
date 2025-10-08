@@ -37,6 +37,8 @@ Please either:
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 - [National Highways graduate programmes](https://nationalhighways.co.uk/careers/career-programmes/graduate-programmes/)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
+- [Nuclear Graduates](https://nucleargraduates.com/disciplines) _(also some private sector placements)_
+- [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme)
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/)
