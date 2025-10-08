@@ -262,6 +262,8 @@ function buildSite() {
     ? `${contentHtml}\n${calloutHtml}`
     : contentHtml;
 
+  const cacheBuster = Date.now().toString();
+
   const replacements = {
     "{{ title }}": escapeHtml(pageTitle),
     "{{ description }}": escapeHtml(description),
@@ -275,6 +277,7 @@ function buildSite() {
     "{{ metaOg }}": ogTags,
     "{{ metaTwitter }}": twitterTags,
     "{{ jsonLd }}": jsonLd,
+    "{{ cacheBuster }}": cacheBuster,
   };
 
   let finalHtml = template;
