@@ -16,7 +16,7 @@ Please either:
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk)
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/)
-- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) _(no website, advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi) when open; see [March 2025 advert (archived)](https://web.archive.org/web/20250824154059/https://findajob.dwp.gov.uk/details/16299166))_
+- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166)
 - [Government Economic Service Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment)
 - [Government Operational Research Service - Mainstream Recruitment Level 2](https://www.gov.uk/guidance/government-operational-research-service-mainstream-recruitment)
 - [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme)
@@ -24,6 +24,7 @@ Please either:
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates)
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes)
 - [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/)
+- [Ministry of Defence Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM)
 - Yorkshire Development Scheme
 
 ## Agencies and other public bodies
@@ -38,13 +39,14 @@ Please either:
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme)
 - [National Highways graduate programmes](https://nationalhighways.co.uk/careers/career-programmes/graduate-programmes/)
 - [Network Rail graduate schemes](https://www.networkrail.co.uk/careers/early-careers/graduate-schemes/)
-- [Nuclear Graduates](https://nucleargraduates.com/disciplines) _(also some private sector placements)_
+- [Nuclear Graduates](https://nucleargraduates.com/disciplines)
 - [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/)
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/)
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme)
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/)
 - [Submarine Delivery Agency (SDA) graduate schemes](https://www.gov.uk/government/publications/sda-graduate-schemes/sda-graduate-schemes)
 - [Valuation Office Agency graduate schemes](https://www.gov.uk/guidance/valuation-office-agency-graduate-scheme)
+- [Vehicle Certification Agency Graduate Scheme](https://www.vehicle-certification-agency.gov.uk/careers/graduate/)
 
 ## Finance
 
@@ -72,7 +74,8 @@ Please either:
 
 ## Intelligence agencies
 
-- [MI5](https://www.mi5.gov.uk/careers/opportunities/graduates)
+- [MI5 (Security Service)](https://www.mi5.gov.uk/careers/opportunities/graduates)
+- [MI6 (Secret Intelligence Service) Technology Graduate Development Programme](https://www.sis.gov.uk/careers/technologists/technology-graduate-development-programme)
 
 ## Houses of Parliament
 
