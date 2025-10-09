@@ -1,0 +1,67 @@
+{
+  "generalist-and-leadership": {
+    "label": "Generalist & Leadership",
+    "aliases": [],
+    "color": "#16613b"
+  },
+  "policy": {
+    "label": "Policy",
+    "aliases": [],
+    "color": "#2c7b2d"
+  },
+  "economics-research-and-analysis": {
+    "label": "Economics, Research & Analysis",
+    "aliases": [],
+    "color": "#b36a1e"
+  },
+  "digital-data-and-cyber": {
+    "label": "Digital, Data & Cyber",
+    "aliases": [],
+    "color": "#4b1d7b"
+  },
+  "finance-audit-and-commercial": {
+    "label": "Finance, Audit & Commercial",
+    "aliases": [],
+    "color": "#0a5c91"
+  },
+  "legal-governance-and-risk": {
+    "label": "Legal, Governance & Risk",
+    "aliases": [],
+    "color": "#8c1a4b"
+  },
+  "regulation-and-enforcement": {
+    "label": "Regulation & Enforcement",
+    "aliases": [],
+    "color": "#c2410c"
+  },
+  "project-infrastructure-and-property-management": {
+    "label": "Project, Infrastructure & Property Management",
+    "aliases": [],
+    "color": "#b05f22"
+  },
+  "operational-delivery-and-public-services": {
+    "label": "Operational Delivery & Public Services",
+    "aliases": [],
+    "color": "#336699"
+  },
+  "hr-communications-and-creative": {
+    "label": "HR, Communications & Creative",
+    "aliases": [],
+    "color": "#6b2d7f"
+  },
+  "science-engineering-and-environment": {
+    "label": "Science, Engineering & Environment",
+    "aliases": [],
+    "color": "#752f94"
+  },
+  "health-policing-and-social-care-professions": {
+    "label": "Health, Policing & Social Care Professions",
+    "aliases": [],
+    "color": "#c1121f"
+  },
+  "education-and-planning": {
+    "label": "Education & Planning",
+    "aliases": [],
+    "color": "#f6b400"
+  }
+}

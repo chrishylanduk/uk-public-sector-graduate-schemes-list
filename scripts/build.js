@@ -12,8 +12,67 @@ const templatePath = path.join(projectRoot, "templates", "layout.html");
 const staticDir = path.join(projectRoot, "static");
 const distDir = path.join(projectRoot, "dist");
 const outputHtmlPath = path.join(distDir, "index.html");
+const roleConfigPath = path.join(projectRoot, "config", "roles.json");
 
 const slugCounts = new Map();
+
+let roleConfigData = {};
+if (fs.existsSync(roleConfigPath)) {
+  try {
+    roleConfigData = JSON.parse(fs.readFileSync(roleConfigPath, "utf8"));
+  } catch (error) {
+    console.warn(
+      `Warning: unable to parse role config at ${roleConfigPath}:`,
+      error,
+    );
+    roleConfigData = {};
+  }
+}
+
+const roleAliasMap = new Map();
+for (const [slug, config] of Object.entries(roleConfigData)) {
+  const aliases = new Set([config.label, ...(config.aliases || [])]);
+  aliases.forEach((alias) => {
+    if (!alias) {
+      return;
+    }
+    roleAliasMap.set(alias.trim().toLowerCase(), { slug, config });
+  });
+  roleAliasMap.set(slug, { slug, config });
+}
+
+function slugifyRole(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function transformRoleTags(markdown) {
+  const rolePattern = /\{([^{}]+)\}/g;
+
+  return markdown.replace(rolePattern, (match, rawRole) => {
+    const label = rawRole.trim();
+
+    if (!label) {
+      return match;
+    }
+
+    const lookupKey = label.toLowerCase();
+    const matchedConfig =
+      roleAliasMap.get(lookupKey) ||
+      roleAliasMap.get(slugifyRole(label)) ||
+      null;
+    const slug = matchedConfig?.slug || slugifyRole(label) || "role";
+    const displayLabel = matchedConfig?.config?.label || label;
+    const safeSlug = escapeHtml(slug);
+    const safeLabel = escapeHtml(displayLabel);
+
+    return `<span class="role-tag" data-role="${safeSlug}" data-role-label="${safeLabel}">${safeLabel}</span>`;
+  });
+}
 
 function slugify(value) {
   const plainValue = String(value ?? "");
@@ -95,7 +154,8 @@ function createRenderer({ collectNav = false, navItems = [] } = {}) {
 }
 
 function buildSite() {
-  const markdown = fs.readFileSync(readmePath, "utf8");
+  const rawMarkdown = fs.readFileSync(readmePath, "utf8");
+  const markdown = transformRoleTags(rawMarkdown);
   const template = fs.readFileSync(templatePath, "utf8");
 
   const tokens = marked.lexer(markdown);
@@ -277,6 +337,7 @@ function buildSite() {
     "{{ metaOg }}": ogTags,
     "{{ metaTwitter }}": twitterTags,
     "{{ jsonLd }}": jsonLd,
+    "{{ roleConfigJson }}": JSON.stringify(roleConfigData),
     "{{ cacheBuster }}": cacheBuster,
   };
 
