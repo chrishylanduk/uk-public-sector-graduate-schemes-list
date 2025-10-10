@@ -490,6 +490,7 @@ header h1 {
   font-size: 1.05rem;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .feedback-callout {
