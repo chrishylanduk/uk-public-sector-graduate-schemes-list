@@ -19,9 +19,6 @@
   const roleFilterClear = roleFilter
     ? roleFilter.querySelector('[data-js="role-filter-clear"]')
     : null;
-  const activeFiltersContainer = form.querySelector(
-    '[data-js="active-filters"]',
-  );
   const selectedRoles = new Set();
   const roleLabels = new Map();
   const roleColorCache = new Map();
@@ -71,20 +68,21 @@
     return normalized < 0 ? normalized + 360 : normalized;
   }
 
-  function colorsFromHue(hueValue) {
+  function clamp(value, min, max) {
+    return Math.min(Math.max(value, min), max);
+  }
+
+  function colorsFromHue(hueValue, saturation = 0.65, lightness = 0.35) {
     const hue = normalizeHue(hueValue);
     if (hue === null) {
       return null;
     }
 
-    return {
-      bg: `hsl(${hue}, 70%, 92%)`,
-      border: `hsl(${hue}, 60%, 80%)`,
-      text: `hsl(${hue}, 45%, 28%)`,
-      selectedBg: `hsl(${hue}, 70%, 86%)`,
-      selectedBorder: `hsl(${hue}, 60%, 55%)`,
-      selectedText: `hsl(${hue}, 45%, 20%)`,
-    };
+    return buildPaletteFromHsl({
+      h: hue,
+      s: clamp(saturation, 0, 1),
+      l: clamp(lightness, 0, 1),
+    });
   }
 
   function parseHexColor(value) {
@@ -109,7 +107,7 @@
     return { r, g, b };
   }
 
-  function rgbToHue({ r, g, b }) {
+  function rgbToHsl({ r, g, b }) {
     const rn = r / 255;
     const gn = g / 255;
     const bn = b / 255;
@@ -118,25 +116,103 @@
     const min = Math.min(rn, gn, bn);
     const delta = max - min;
 
-    if (delta === 0) {
-      return 0;
+    let hue = 0;
+    if (delta !== 0) {
+      if (max === rn) {
+        hue = ((gn - bn) / delta) % 6;
+      } else if (max === gn) {
+        hue = (bn - rn) / delta + 2;
+      } else {
+        hue = (rn - gn) / delta + 4;
+      }
+      hue *= 60;
+      if (hue < 0) {
+        hue += 360;
+      }
     }
 
-    let hue;
-    if (max === rn) {
-      hue = ((gn - bn) / delta) % 6;
-    } else if (max === gn) {
-      hue = (bn - rn) / delta + 2;
-    } else {
-      hue = (rn - gn) / delta + 4;
+    const lightness = (max + min) / 2;
+
+    let saturation = 0;
+    if (delta !== 0) {
+      saturation = delta / (1 - Math.abs(2 * lightness - 1));
     }
 
-    hue *= 60;
-    if (hue < 0) {
-      hue += 360;
-    }
+    return {
+      h: hue,
+      s: clamp(saturation, 0, 1),
+      l: clamp(lightness, 0, 1),
+    };
+  }
 
-    return hue;
+  function formatHsl({ h, s, l }) {
+    const hue = Math.round(clamp(h, 0, 360));
+    const sat = Math.round(clamp(s, 0, 1) * 100);
+    const light = Math.round(clamp(l, 0, 1) * 100);
+    return `hsl(${hue}, ${sat}%, ${light}%)`;
+  }
+
+  function lightenLightness(l, amount, minimum = 0) {
+    const lightened = l + (1 - l) * amount;
+    return clamp(Math.max(lightened, minimum), 0, 1);
+  }
+
+  function darkenLightness(l, amount, maximum = 1) {
+    const darkened = l * (1 - amount);
+    return clamp(Math.min(darkened, maximum), 0, 1);
+  }
+
+  function buildPaletteFromHsl({ h, s, l }) {
+    const baseHue = clamp(h, 0, 360);
+    const baseSat = clamp(s, 0, 1);
+    const baseLight = clamp(l, 0, 1);
+
+    const soften = (factor, minimum = 0) => clamp(baseSat * factor, minimum, 1);
+
+    const bg = {
+      h: baseHue,
+      s: soften(0.7, 0.45),
+      l: lightenLightness(baseLight, 0.65, 0.7),
+    };
+
+    const border = {
+      h: baseHue,
+      s: soften(0.8, 0.5),
+      l: lightenLightness(baseLight, 0.5, 0.6),
+    };
+
+    const text = {
+      h: baseHue,
+      s: soften(0.95, 0.6),
+      l: darkenLightness(baseLight, 0.65, 0.16),
+    };
+
+    const selectedBg = {
+      h: baseHue,
+      s: soften(0.8, 0.55),
+      l: lightenLightness(baseLight, 0.45, 0.66),
+    };
+
+    const selectedBorder = {
+      h: baseHue,
+      s: soften(0.9, 0.65),
+      l: lightenLightness(baseLight, 0.35, 0.56),
+    };
+
+    const selectedText = {
+      h: baseHue,
+      s: soften(1, 0.65),
+      l: darkenLightness(baseLight, 0.7, 0.12),
+    };
+
+    return {
+      bg: formatHsl(bg),
+      border: formatHsl(border),
+      text: formatHsl(text),
+      selectedBg: formatHsl(selectedBg),
+      selectedBorder: formatHsl(selectedBorder),
+      selectedText: formatHsl(selectedText),
+    };
   }
 
   function colorsFromConfig(slug) {
@@ -152,7 +228,7 @@
     if (typeof config.color === "string") {
       const rgb = parseHexColor(config.color);
       if (rgb) {
-        return colorsFromHue(rgbToHue(rgb));
+        return buildPaletteFromHsl(rgbToHsl(rgb));
       }
     }
 
@@ -170,7 +246,7 @@
       colors = colorsFromHue(hashHue);
     }
     if (!colors) {
-      colors = colorsFromHue(210);
+      colors = buildPaletteFromHsl({ h: 210, s: 0.6, l: 0.35 });
     }
 
     roleColorCache.set(slug, colors);
@@ -472,60 +548,20 @@
         return;
       }
 
-      summary.textContent = `No schemes match ${filters.join(" and ")}.`;
+      summary.textContent = `No schemes match ${filters.join(" and ")}`;
       return;
     }
 
     if (filters.length === 0) {
       summary.textContent = `Showing all ${totalItems} ${
         totalItems === 1 ? "scheme" : "schemes"
-      }.`;
+      }`;
       return;
     }
 
     summary.textContent = `Showing ${visibleCount} ${
       visibleCount === 1 ? "scheme" : "schemes"
-    } where ${filters.join(", and ")}.`;
-  }
-
-  function updateActiveFilters(query) {
-    if (!activeFiltersContainer) {
-      return;
-    }
-
-    const trimmedQuery = query.trim();
-    const roleEntries = Array.from(selectedRoles)
-      .map((slug) => [slug, roleLabels.get(slug)])
-      .filter(([, label]) => Boolean(label));
-
-    if (!trimmedQuery && roleEntries.length === 0) {
-      activeFiltersContainer.hidden = true;
-      activeFiltersContainer.innerHTML = "";
-      return;
-    }
-
-    activeFiltersContainer.hidden = false;
-    activeFiltersContainer.innerHTML = "";
-
-    const labelEl = document.createElement("span");
-    labelEl.className = "active-filters__label";
-    labelEl.textContent = "Active filters:";
-    activeFiltersContainer.append(labelEl);
-
-    if (trimmedQuery) {
-      const keywordChip = document.createElement("span");
-      keywordChip.className = "role-tag role-tag--summary role-tag--keyword";
-      keywordChip.textContent = `Name contains "${trimmedQuery}"`;
-      activeFiltersContainer.append(keywordChip);
-    }
-
-    roleEntries.forEach(([slug, label]) => {
-      const chip = document.createElement("span");
-      chip.className = "role-tag role-tag--summary";
-      chip.textContent = label;
-      applyRoleColors(chip, slug);
-      activeFiltersContainer.append(chip);
-    });
+    } where ${filters.join(", and ")}`;
   }
 
   function toggleClearButton(hasQuery) {
@@ -745,8 +781,6 @@
     });
 
     updateSummary(visibleCount, query);
-    updateActiveFilters(query);
-
     toggleClearButton(normalizedQuery.length > 0);
     toggleRoleClearButton(selectedRoles.size > 0);
   }

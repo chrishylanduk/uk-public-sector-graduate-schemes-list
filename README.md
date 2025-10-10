@@ -1,8 +1,8 @@
 # All UK public sector graduate schemes
 
-A community effort to collate links to all UK public sector grad schemes and grad jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
+Crowdsourced links to all UK public sector grad schemes and grad jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
 
-Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
+Most schemes recruit only at specific times of the year. Some are also open to non-graduates. Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
 ### Is something wrong or missing?
 
@@ -124,15 +124,15 @@ Please either:
 
 ## Police
 
-- [British Transport Police Graduate Programme](https://careers.btp.police.uk/roles/graduate-programme/)
-- [Police Degree Holder Entry Programme (DHEP)](https://www.joiningthepolice.co.uk/application-process/ways-in-to-policing/degree-holder-entry-programme-dhep)
-- [Police Now](http://www.policenow.org.uk/)
-- [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/)
+- [British Transport Police Graduate Programme](https://careers.btp.police.uk/roles/graduate-programme/) {Health, Policing & Social Care Professions} {Regulation & Enforcement}
+- [Police Degree Holder Entry Programme (DHEP)](https://www.joiningthepolice.co.uk/application-process/ways-in-to-policing/degree-holder-entry-programme-dhep) {Health, Policing & Social Care Professions} {Regulation & Enforcement}
+- [Police Now](http://www.policenow.org.uk/) {Health, Policing & Social Care Professions} {Regulation & Enforcement}
+- [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/) {Health, Policing & Social Care Professions} {Regulation & Enforcement}
 
 ## Public corporations
 
-- [BBC graduate schemes](https://careers.bbc.co.uk/content/EC_All-Pages/)
-- [Civil Aviation Authority graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/)
-- [National Nuclear Laboratory graduates](https://www.nnl.co.uk/careers/early-careers/graduates/)
-- [National Physical Laboratory graduates](https://www.npl.co.uk/careers/graduates)
-- [Ordnance Survey graduate scheme](https://www.ordnancesurvey.co.uk/careers/graduate-scheme)
+- [BBC graduate schemes](https://careers.bbc.co.uk/content/EC_All-Pages/) {HR, Communications & Creative} {Legal, Risk & Compliance} {Digital, Data & Cyber}
+- [Civil Aviation Authority graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial}
+- [National Nuclear Laboratory graduates](https://www.nnl.co.uk/careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
+- [National Physical Laboratory graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
+- [Ordnance Survey graduate scheme](https://www.ordnancesurvey.co.uk/careers/graduate-scheme) {Digital, Data & Cyber} {Science, Engineering & Environment} {Economics, Research & Analysis}

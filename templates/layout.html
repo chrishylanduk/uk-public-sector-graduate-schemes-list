@@ -55,74 +55,70 @@
       <header>
         <h1>{{ title }}</h1>
         {{ intro }}
-        <form class="site-search" role="search" data-js="search-form">
-          <h2 class="site-search__title" id="filter-title">Filter the list</h2>
-          <fieldset
-            class="role-filter"
-            data-js="role-filter"
-            aria-labelledby="filter-title"
-            hidden
-          >
-            <legend class="role-filter__legend">Select role types</legend>
-            <p class="role-filter__hint">
-              Select one or more role type. Schemes offering at least one of
-              them will show.
-            </p>
-            <div class="role-filter__controls">
-              <div class="role-filter__list" data-js="role-filter-list"></div>
-              <button
-                type="button"
-                class="role-filter__clear"
-                data-js="role-filter-clear"
-                hidden
-                aria-label="Clear role filters"
-              >
-                Clear
-              </button>
-            </div>
-          </fieldset>
-          <div class="site-search__group">
-            <label class="site-search__label" for="scheme-search"
-              >Search scheme names</label
-            >
-            <div class="site-search__controls">
-              <span class="site-search__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
-                  <path
-                    d="M15.5 14h-.79l-.28-.27a6 6 0 1 0-.71.71l.27.28v.79l4.5 4.49a1 1 0 0 0 1.42-1.41L15.5 14zm-5 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </span>
-              <input
-                type="search"
-                id="scheme-search"
-                name="scheme-search"
-                class="site-search__input"
-                autocomplete="off"
-                spellcheck="false"
-                enterkeyhint="done"
-              />
-              <button
-                type="button"
-                class="site-search__clear"
-                data-js="clear-search"
-                hidden
-                aria-controls="scheme-search"
-                aria-label="Clear search"
-              >
-                Clear
-              </button>
-            </div>
-          </div>
-          <div
-            class="active-filters"
-            data-js="active-filters"
-            hidden
-            aria-live="polite"
-          ></div>
-        </form>
       </header>
+      <form class="site-search" role="search" data-js="search-form">
+        <h2 class="site-search__title" id="filter-title">
+          Filter the list (optional)
+        </h2>
+        <fieldset
+          class="role-filter"
+          data-js="role-filter"
+          aria-labelledby="filter-title"
+          hidden
+        >
+          <legend class="role-filter__legend">Select role types</legend>
+          <p class="role-filter__hint">
+            Select one or more role type to only show schemes offering at least
+            one of them
+          </p>
+          <div class="role-filter__controls">
+            <div class="role-filter__list" data-js="role-filter-list"></div>
+            <button
+              type="button"
+              class="role-filter__clear"
+              data-js="role-filter-clear"
+              hidden
+              aria-label="Clear role filters"
+            >
+              Clear
+            </button>
+          </div>
+        </fieldset>
+        <div class="site-search__group">
+          <label class="site-search__label" for="scheme-search"
+            >Search scheme names</label
+          >
+          <div class="site-search__controls">
+            <span class="site-search__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+                <path
+                  d="M15.5 14h-.79l-.28-.27a6 6 0 1 0-.71.71l.27.28v.79l4.5 4.49a1 1 0 0 0 1.42-1.41L15.5 14zm-5 0a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <input
+              type="search"
+              id="scheme-search"
+              name="scheme-search"
+              class="site-search__input"
+              autocomplete="off"
+              spellcheck="false"
+              enterkeyhint="done"
+            />
+            <button
+              type="button"
+              class="site-search__clear"
+              data-js="clear-search"
+              hidden
+              aria-controls="scheme-search"
+              aria-label="Clear search"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+      </form>
       <p
         id="results-summary"
         class="site-search__summary"
@@ -146,7 +142,11 @@
       </nav>
       <main id="main-content">{{ content }}</main>
       <footer>
-        <p>Last updated on {{ lastUpdated }}.</p>
+        <p><b>Last updated on</b> {{ lastUpdated }}.</p>
+        <p>
+          This site is not affiliated with any of the organisations listed. It
+          has no adverts, trackers or referral links.
+        </p>
         <p>
           The list content is released under
           <a
@@ -166,10 +166,7 @@
             >The Unlicense</a
           >.
         </p>
-        <p>
-          This site has no adverts or trackers. Maintained by Chris Hyland, with
-          community contributions.
-        </p>
+        <p>Maintained by Chris Hyland, with community contributions.</p>
       </footer>
     </div>
     <script type="application/json" id="role-config">
