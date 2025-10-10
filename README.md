@@ -2,7 +2,7 @@
 
 Crowdsourced links to all UK public sector grad schemes and grad jobs across national and local government, the Civil Service, public bodies, healthcare, policing, and more.
 
-Most schemes recruit only at specific times of the year. Some are also open to non-graduates. Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
+Most schemes recruit only at specific times of the year. Many welcome careers changers who graduated some time ago, and some are also open to non-graduates. Many of these organisations also offer entry-level roles and apprenticeships that may be suitable for graduates.
 
 ### Is something wrong or missing?
 
