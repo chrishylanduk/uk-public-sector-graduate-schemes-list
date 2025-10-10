@@ -196,18 +196,63 @@ header h1 {
 }
 
 .role-filter {
-  border: 0;
   margin: 0;
+  border: 1px solid #d9d9d9;
+  border-radius: 0.75rem;
+  background: #fff;
   padding: 0;
-  display: grid;
-  gap: 0.45rem;
+  overflow: hidden;
 }
 
-.role-filter__legend {
+.role-filter__summary {
+  margin: 0;
+  padding: 0.75rem 1rem;
   font-size: 0.95rem;
-  font-weight: 600;
-  margin: 0 0 0.35rem;
+  font-weight: 650;
   color: #1f2a33;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.role-filter__summary:focus-visible {
+  outline: none;
+  border-color: var(--accent-color);
+  background: rgb(0 94 165 / 15%);
+  box-shadow: 0 0 0 2px rgb(0 94 165 / 20%);
+}
+
+.role-filter__summary::-webkit-details-marker {
+  display: none;
+}
+
+.role-filter__summary::after {
+  content: "";
+  border-style: solid;
+  border-width: 0.35rem 0.35rem 0;
+  border-color: currentcolor transparent transparent;
+  margin-left: 0.6rem;
+  transition: transform 0.2s ease;
+}
+
+.role-filter[open] .role-filter__summary::after {
+  transform: rotate(-180deg);
+}
+
+.role-filter__content {
+  border-top: 1px solid #d9d9d9;
+  padding: 0 1rem 1rem;
+  display: grid;
+  gap: 0.45rem;
 }
 
 .role-filter__hint {
@@ -486,27 +531,38 @@ header h1 {
 }
 
 .site-nav__accordion {
-  border: 1px solid #d9d9d9;
-  border-radius: 0.5rem;
-  background: #fff;
+  border: 1px solid #d9deeb;
+  border-radius: 0.6rem;
+  background: #f6f8ff;
   overflow: hidden;
 }
 
 .site-nav__summary {
-  padding: 0.75rem 1rem;
-  font-weight: 600;
+  padding: 0.7rem 1rem;
+  font-weight: 650;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   cursor: pointer;
   list-style: none;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #1f2a33;
+  border: 1px solid transparent;
+  border-radius: 0.6rem;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 .site-nav__summary:focus-visible {
-  outline: 3px solid var(--accent-focus);
-  outline-offset: 2px;
-  border-radius: 0.5rem;
+  outline: none;
+  border-color: var(--accent-color);
+  background: rgb(0 94 165 / 15%);
+  box-shadow: 0 0 0 2px rgb(0 94 165 / 20%);
 }
 
 .site-nav__summary::-webkit-details-marker {
@@ -529,7 +585,8 @@ header h1 {
 .site-nav__content {
   display: none;
   padding: 1rem;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid rgb(211 215 230 / 60%);
+  background: #fff;
 }
 
 .site-nav__accordion[open] .site-nav__content {

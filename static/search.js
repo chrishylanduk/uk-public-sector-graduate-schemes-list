@@ -19,6 +19,11 @@
   const roleFilterClear = roleFilter
     ? roleFilter.querySelector('[data-js="role-filter-clear"]')
     : null;
+  const navSummary = document.querySelector('[data-js="nav-summary"]');
+  const navSummaryBase =
+    navSummary?.dataset?.label?.trim() ||
+    (navSummary?.textContent ? navSummary.textContent.trim() : "");
+  const navSummaryFiltersSuffix = " (matching your filters)";
   const selectedRoles = new Set();
   const roleLabels = new Map();
   const roleColorCache = new Map();
@@ -548,20 +553,30 @@
         return;
       }
 
-      summary.textContent = `No schemes match ${filters.join(" and ")}`;
+      summary.textContent = `No schemes match ${filters.join(" and ")}.`;
       return;
     }
 
     if (filters.length === 0) {
       summary.textContent = `Showing all ${totalItems} ${
         totalItems === 1 ? "scheme" : "schemes"
-      }`;
+      }.`;
       return;
     }
 
     summary.textContent = `Showing ${visibleCount} ${
       visibleCount === 1 ? "scheme" : "schemes"
-    } where ${filters.join(", and ")}`;
+    } where ${filters.join(", and ")}.`;
+  }
+
+  function updateNavSummaryLabel(filtersActive) {
+    if (!navSummary || !navSummaryBase) {
+      return;
+    }
+
+    navSummary.textContent = filtersActive
+      ? `${navSummaryBase}${navSummaryFiltersSuffix}`
+      : navSummaryBase;
   }
 
   function toggleClearButton(hasQuery) {
@@ -591,6 +606,9 @@
 
     if (hasSelection) {
       roleFilterClear.removeAttribute("tabindex");
+      if (roleFilter) {
+        roleFilter.open = true;
+      }
     } else {
       roleFilterClear.setAttribute("tabindex", "-1");
     }
@@ -662,11 +680,15 @@
 
     if (roles.length === 0) {
       roleFilter.hidden = true;
+      roleFilter.removeAttribute("open");
       return;
     }
 
     roleFilter.hidden = false;
     roleFilterList.innerHTML = "";
+    if (selectedRoles.size > 0) {
+      roleFilter.open = true;
+    }
 
     const fragment = document.createDocumentFragment();
 
@@ -707,6 +729,10 @@
 
         toggleRoleClearButton(selectedRoles.size > 0);
         applyFilter();
+
+        if (roleFilter && selectedRoles.size > 0) {
+          roleFilter.open = true;
+        }
       });
     });
 
@@ -781,6 +807,7 @@
     });
 
     updateSummary(visibleCount, query);
+    updateNavSummaryLabel(filtersActive);
     toggleClearButton(normalizedQuery.length > 0);
     toggleRoleClearButton(selectedRoles.size > 0);
   }

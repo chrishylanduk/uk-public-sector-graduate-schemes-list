@@ -60,30 +60,32 @@
         <h2 class="site-search__title" id="filter-title">
           Filter the list (optional)
         </h2>
-        <fieldset
+        <details
           class="role-filter"
           data-js="role-filter"
           aria-labelledby="filter-title"
           hidden
         >
-          <legend class="role-filter__legend">Select role types</legend>
-          <p class="role-filter__hint">
-            Select one or more role type to only show schemes offering at least
-            one of them
-          </p>
-          <div class="role-filter__controls">
-            <div class="role-filter__list" data-js="role-filter-list"></div>
-            <button
-              type="button"
-              class="role-filter__clear"
-              data-js="role-filter-clear"
-              hidden
-              aria-label="Clear role filters"
-            >
-              Clear
-            </button>
+          <summary class="role-filter__summary">Select role types</summary>
+          <div class="role-filter__content">
+            <p class="role-filter__hint">
+              Select one or more role type to only show schemes offering at
+              least one of them
+            </p>
+            <div class="role-filter__controls">
+              <div class="role-filter__list" data-js="role-filter-list"></div>
+              <button
+                type="button"
+                class="role-filter__clear"
+                data-js="role-filter-clear"
+                hidden
+                aria-label="Clear role filters"
+              >
+                Clear
+              </button>
+            </div>
           </div>
-        </fieldset>
+        </details>
         <div class="site-search__group">
           <label class="site-search__label" for="scheme-search"
             >Search scheme names</label
@@ -127,8 +129,13 @@
       <nav aria-label="Organisation types" class="site-nav">
         <h2 class="site-nav__title">Organisation types</h2>
         <details class="site-nav__accordion">
-          <summary class="site-nav__summary" aria-controls="site-nav-mobile">
-            Organisation types
+          <summary
+            class="site-nav__summary"
+            aria-controls="site-nav-mobile"
+            data-js="nav-summary"
+            data-label="Browse organisation types"
+          >
+            Browse organisation types
           </summary>
           <div class="site-nav__content" id="site-nav-mobile">
             <ul class="site-nav__list">
