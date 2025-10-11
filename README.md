@@ -35,14 +35,15 @@ Please either:
 - [Defence Equipment & Support (DE&S) graduate schemes](https://des.mod.uk/careers/graduates-1/#graduate-section) {Finance, Audit & Commercial} {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Operational Delivery & Public Services}
 - [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student) {Science, Engineering & Environment}
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
+- [Forestry England Graduate Leadership Programme](https://www.forestryengland.uk/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
 - [HS2 graduate programme](https://mediacentre.hs2.org.uk/news/hs2-opens-recruitment-for-graduate-jobs) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme) {Science, Engineering & Environment} {Regulation & Enforcement}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [National Highways graduate programmes](https://nationalhighways.co.uk/careers/career-programmes/graduate-programmes/) {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Digital, Data & Cyber} {Finance, Audit & Commercial} {Generalist & Leadership} {Legal, Risk & Compliance}
 - [Network Rail graduate schemes](https://www.earlycareers.networkrail.co.uk/programme/graduate/) {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber} {Economics, Research & Analysis} {Operational Delivery & Public Services}
-- [Nuclear Graduates](https://nucleargraduates.com/disciplines) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Operational Delivery & Public Services} {Digital, Data & Cyber}
+- [Nuclear Graduates](https://nucleargraduates.com/disciplines) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/) {Policy} {Digital, Data & Cyber} {Economics, Research & Analysis} {Regulation & Enforcement} {Science, Engineering & Environment}
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme) {Regulation & Enforcement} {Economics, Research & Analysis} {Policy} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {Generalist & Leadership}
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/) {Science, Engineering & Environment} {HR, Communications & Creative} {Digital, Data & Cyber} {Project, Infrastructure & Property Management}
@@ -65,6 +66,7 @@ Please either:
 ## Northern Ireland
 
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net) {Generalist & Leadership} {Policy}
+- [Nothern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
 
 ## Wales
 
@@ -122,6 +124,7 @@ Please either:
 - [NHS England Scientist Training programme](https://www.nshcs.hee.nhs.uk/programmes/stp) {Health, Policing & Social Care Professions} {Science, Engineering & Environment}
 - [NHS Graduate Management Training Scheme](https://graduates.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Finance, Audit & Commercial} {HR, Communications & Creative} {Digital, Data & Cyber}
 - [NHS Scotland Management Training Scheme](https://www.mts.scot.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions}
+- [NHS South, Central and West (NHS SCW) graduate management programme](https://scwcsu.nhs.uk/work-for-us/graduate-scheme) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Project, Infrastructure & Property Management}
 - [NHS Wales Graduate Management Scheme](https://nhswalesleadershipportal.heiw.wales/graduate-programme) {Generalist & Leadership} {Health, Policing & Social Care Professions}
 
 ## Police
