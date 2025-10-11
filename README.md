@@ -94,7 +94,6 @@ Please either:
 ## Social work
 
 - [Approach Social Work (previously Frontline)](https://thefrontline.org.uk/become-a-social-worker/approach-social-work/) {Health, Policing & Social Care Professions}
-- [Think Ahead](http://thinkahead.org/) {Health, Policing & Social Care Professions}
 
 ## Local government
 
