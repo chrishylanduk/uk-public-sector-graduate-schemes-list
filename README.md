@@ -17,9 +17,11 @@ Please either:
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/) {Generalist & Leadership} {Regulation & Enforcement} {Legal, Risk & Compliance} {Economics, Research & Analysis}
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
-- [Government Economic Service Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment) {Economics, Research & Analysis}
-- [Government Operational Research Service - Mainstream Recruitment Level 2](https://www.gov.uk/guidance/government-operational-research-service-mainstream-recruitment) {Economics, Research & Analysis}
-- [Government Social Research Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme) {Economics, Research & Analysis}
+- [Government Actuary's Department (GAD) Graduate Analyst and Trainee Actuary programmes](https://www.gov.uk/government/organisations/government-actuarys-department/about/recruitment) {Economics, Research & Analysis}
+- [Government Economic Service (GES) Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment) {Economics, Research & Analysis}
+- [Government Operational Research Service (GORS) - Mainstream Recruitment Level 2](https://www.gov.uk/guidance/government-operational-research-service-mainstream-recruitment) {Economics, Research & Analysis}
+- [Government Social Research (GSR) Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme) {Economics, Research & Analysis}
+- [Government Statistical Service (GSS) Statistical Officers](https://www.civil-service-careers.gov.uk/professions/government-statistical-service/) {Economics, Research & Analysis}
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/) {Policy} {Economics, Research & Analysis}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
