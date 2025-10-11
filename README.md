@@ -73,6 +73,7 @@ Please either:
 ## Scotland
 
 - [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
+- [Scottish Government Future Planners Programme](https://www.gov.scot/publications/future-planners-programme-2025-candidate-guide/pages/about-the-programme/) {Education & Planning}
 
 ## Intelligence agencies
 
