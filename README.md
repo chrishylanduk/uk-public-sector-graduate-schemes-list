@@ -86,7 +86,7 @@ These Civil Service schemes generally advertise on [Civil Service Jobs](https://
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
 - [Yorkshire Development Scheme](https://www.linkedin.com/posts/katie-farrington-2a441488_i-met-the-latest-group-of-yorkshire-development-activity-7259595864606756865-7J_B/) {Generalist & Leadership}
 
-  Historically recruits via Fast Stream near-misses
+  Historically recruits only via Fast Stream near-misses
 
 ### Analytical professions
 
