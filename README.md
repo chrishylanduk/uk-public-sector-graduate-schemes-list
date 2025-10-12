@@ -36,7 +36,7 @@ This repository contains the Markdown source, build tooling, and static assets t
 - Role types must appear as `{Role Type}` tags, matching the canonical labels defined in `config/roles.json`. Multiple tags are allowed and should be ordered from most to least relevant.
 - If a scheme belongs in a new organisation type section, add a heading (`##`, `###`, etc.) before the list so the generated navigation stays organised.
 - Ensure the scheme is inserted in alphabetical order within its section.
-- To include an explanatory note, add a blank line followed by an paragraph beneath the list item:
+- To include an explanatory note, add a blank line followed by an indented paragraph beneath the list item:
 
   ```markdown
   - [Example Scheme](https://example.org) {Policy}
@@ -82,7 +82,9 @@ Please either:
 ### Cross-government schemes
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
-- Yorkshire Development Scheme _(historically, only recruits via Fast Stream near-misses)_ {Generalist & Leadership}
+- [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Generalist & Leadership} {Policy}
+
+  Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
 
 ### Analytical professions
 
