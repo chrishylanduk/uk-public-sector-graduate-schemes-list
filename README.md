@@ -1,3 +1,59 @@
+# UK Public Sector Graduate Schemes – Repository
+
+This repository contains the Markdown source, build tooling, and static assets that power [publicsectorgradschemes.co.uk](https://publicsectorgradschemes.co.uk). The published site is generated directly from the Markdown content in this file.
+
+## Development
+
+### Requirements
+
+- Node.js 18+ (the build scripts run as native ES modules).
+
+### Install & build
+
+- `npm install` – install dependencies.
+- `npm run build` – regenerate `dist/index.html` and copy static assets.
+
+### Tooling
+
+- Optional: `pre-commit install` to enable the configured lint/format hooks, or run them manually with `pre-commit run --all-files`.
+
+### Project structure
+
+- `scripts/build.js` orchestrates the Markdown → HTML build and pulls helpers from `scripts/utils/`.
+- `static/search.js` handles client-side filtering and navigation behaviour.
+- Role names and aliases live in `config/roles.json`.
+
+## Content structure
+
+- The section between `<!-- site-content:start -->` and `<!-- site-content:end -->` is the only portion that is transformed into the public site.
+- Keep scheme entries inside that block so the build process continues to produce the same output.
+- Everything outside the markers is ignored by the build step and can be used for documentation, contributor guidance, or project notes.
+
+### Adding a new scheme
+
+- Use a Markdown list item in the format `- [Organisation and scheme name](https://example.org) {Role Type One} {Role Type Two}`.
+- Link directly to the official scheme or recruitment page whenever possible
+- Role types must appear as `{Role Type}` tags, matching the canonical labels defined in `config/roles.json`. Multiple tags are allowed and should be ordered from most to least relevant.
+- If a scheme belongs in a new organisation type section, add a heading (`##`, `###`, etc.) before the list so the generated navigation stays organised.
+- Ensure the scheme is inserted in alphabetical order within its section.
+
+### Role types and colours
+
+- Role metadata lives in `config/roles.json`. Each entry key is the role slug (used in the `data-role` attribute) and can include:
+  - `label` (required): the human-readable text displayed on tags.
+  - `aliases` (optional array): alternative strings that will resolve to the same role when parsing `{Role}` tags in Markdown.
+  - `hue` (optional number) or `color` (optional hex): customise the role pill palette.
+- `hue` is the hue component of the HSL colour space, expressed in degrees (0–360). The browser code derives saturated, accessible background/border/text colours from that single value—e.g. `0` ≈ red, `120` ≈ green, `240` ≈ blue.
+- After updating the config or Markdown, run `npm run build` and check `dist/index.html` to confirm the role pills render as expected.
+
+## Contributing
+
+- Check issues for anything already being worked on, or open one before making large changes.
+- Keep Markdown content accessible: prefer descriptive link text and ensure new headings follow a logical hierarchy.
+- When updating the list, run `npm run build` and check the generated `dist/index.html` to confirm no unintended regressions.
+
+<!-- site-content:start -->
+
 # All UK public sector graduate schemes
 
 Crowdsourced links to all UK public sector grad schemes and grad jobs - covering the Civil Service, public bodies, local government, healthcare, policing, and more.
@@ -172,3 +228,4 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 - [National Nuclear Laboratory graduates](https://www.nnl.co.uk/careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [National Physical Laboratory graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
 - [Ordnance Survey graduate scheme](https://www.ordnancesurvey.co.uk/careers/graduate-scheme) {Digital, Data & Cyber} {Science, Engineering & Environment} {Economics, Research & Analysis}
+<!-- site-content:end -->
