@@ -82,6 +82,7 @@ Please either:
 ### Cross-government schemes
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
+- Yorkshire Development Scheme {Generalist & Leadership}
 
 ### Analytical professions
 
