@@ -82,9 +82,6 @@ Please either:
 ### Cross-government schemes
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
-- [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Policy} {Operational Delivery & Public Services}
-
-  Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
 
 ### Analytical professions
 
@@ -109,6 +106,9 @@ Please either:
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
 - [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/) {Digital, Data & Cyber}
 - [Ministry of Defence Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM) {Finance, Audit & Commercial} {Economics, Research & Analysis}
+- [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Policy} {Operational Delivery & Public Services}
+
+  Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
 
 ## Armed Forces
 
