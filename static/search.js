@@ -335,6 +335,54 @@
     return Number.isNaN(depth) ? null : depth;
   }
 
+  function collectParagraphSiblings(
+    startElement,
+    {
+      untilElement = null,
+      stopAtAnyHeading = false,
+      stopAtHeadingDepth = null,
+    } = {},
+  ) {
+    const nodes = [];
+
+    if (!startElement) {
+      return nodes;
+    }
+
+    let current = startElement.nextElementSibling;
+
+    while (current) {
+      if (current === untilElement) {
+        break;
+      }
+
+      if (/^H[1-6]$/.test(current.tagName)) {
+        const depth = headingDepth(current);
+
+        if (stopAtAnyHeading) {
+          break;
+        }
+
+        if (
+          stopAtHeadingDepth !== null &&
+          stopAtHeadingDepth !== undefined &&
+          depth !== null &&
+          depth <= stopAtHeadingDepth
+        ) {
+          break;
+        }
+      }
+
+      if (current.tagName === "P") {
+        nodes.push(current);
+      }
+
+      current = current.nextElementSibling;
+    }
+
+    return nodes;
+  }
+
   function findHeading(element) {
     let current = element.previousElementSibling;
 
@@ -493,7 +541,18 @@
     }
 
     const navItems = getNavItemsForHeading(heading);
-    const section = { heading, list, items, navItems };
+    const headingLevel = headingDepth(heading);
+    const paragraphsBeforeList = collectParagraphSiblings(heading, {
+      untilElement: list,
+      stopAtAnyHeading: true,
+    });
+    const paragraphsAfterList = collectParagraphSiblings(list, {
+      stopAtHeadingDepth: headingLevel ?? 6,
+    });
+    const descriptionNodes = Array.from(
+      new Set([...paragraphsBeforeList, ...paragraphsAfterList]),
+    );
+    const section = { heading, list, items, navItems, descriptionNodes };
 
     const parentHeading = findParentHeading(heading);
     if (parentHeading) {
@@ -505,6 +564,9 @@
           heading: parentHeading,
           navItems: getNavItemsForHeading(parentHeading),
           sections: [],
+          descriptionNodes: collectParagraphSiblings(parentHeading, {
+            stopAtAnyHeading: true,
+          }),
         };
         parentGroups.set(parentHeading, group);
       }
@@ -782,6 +844,12 @@
 
       section.visibleInSection = visibleInSection;
 
+      if (section.descriptionNodes && section.descriptionNodes.length > 0) {
+        section.descriptionNodes.forEach((node) => {
+          node.hidden = shouldHideSection;
+        });
+      }
+
       if (section.navItems && section.navItems.length > 0) {
         section.navItems.forEach((navItem) => {
           navItem.hidden = shouldHideSection;
@@ -797,6 +865,12 @@
 
       if (group.heading) {
         group.heading.hidden = shouldHideParent;
+      }
+
+      if (group.descriptionNodes && group.descriptionNodes.length > 0) {
+        group.descriptionNodes.forEach((node) => {
+          node.hidden = shouldHideParent;
+        });
       }
 
       if (group.navItems && group.navItems.length > 0) {

@@ -130,9 +130,8 @@ function createRenderer({ collectNav = false, navItems = [] } = {}) {
       const inlineHtml = marked.parseInline(text, { mangle: false });
       const id = slugify(text);
 
-      if (depth === 2 || depth === 3) {
-        const navDepth = depth === 3 && navItems.length === 0 ? 2 : depth;
-        navItems.push({ id, text, depth: navDepth });
+      if (depth === 2) {
+        navItems.push({ id, text, depth });
       }
 
       return `<h${depth} id="${id}">${inlineHtml}</h${depth}>`;
@@ -312,10 +311,9 @@ function buildSite() {
   const introHtml = introHtmlParts.join("\n\n        ");
 
   const navHtml = navItems
-    .map((item) => {
-      const className = item.depth === 3 ? ' class="nav-item--sub"' : "";
-      return `<li${className}><a href="#${item.id}">${escapeHtml(item.text)}</a></li>`;
-    })
+    .map(
+      (item) => `<li><a href="#${item.id}">${escapeHtml(item.text)}</a></li>`,
+    )
     .join("\n          ");
 
   const contentWithCalloutHtml = calloutHtml

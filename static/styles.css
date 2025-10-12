@@ -508,6 +508,9 @@ header h1 {
 
 .feedback-callout p {
   margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
 }
 
 .feedback-callout ol {
@@ -631,6 +634,12 @@ main > h2:first-child {
 main h3 {
   margin: 1rem 0 0.5rem;
   font-size: 1.05rem;
+}
+
+main p {
+  font-size: 0.95rem;
+  margin: 0.3rem 0 0.7rem;
+  color: rgb(75 75 75);
 }
 
 main ul,
