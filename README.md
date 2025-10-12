@@ -79,18 +79,11 @@ Please either:
 
 ## Civil Service
 
-These Civil Service schemes generally advertise on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk) when recruiting, usually with a Grade of Executive Officer or Higher Executive Officer.
-
 ### Cross-government schemes
 
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
-- [Yorkshire Development Scheme](https://www.linkedin.com/posts/katie-farrington-2a441488_i-met-the-latest-group-of-yorkshire-development-activity-7259595864606756865-7J_B/) {Generalist & Leadership}
-
-  Historically, recruits only via Fast Stream near-misses
 
 ### Analytical professions
-
-See the [Government Analysis Function guidance on Mainstream profession recruitment](https://analysisfunction.civilservice.gov.uk/careers/the-analysis-function-resourcing-hub/mainstream-profession-recruitment/) for a summary.
 
 - [Government Actuary's Department (GAD) Graduate Analyst and Trainee Actuary programmes](https://www.gov.uk/government/organisations/government-actuarys-department/about/recruitment) {Economics, Research & Analysis}
 - [Government Economic Service (GES) Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment) {Economics, Research & Analysis}
