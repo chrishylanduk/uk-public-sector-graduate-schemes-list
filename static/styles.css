@@ -650,18 +650,31 @@ main ol {
 
 main li {
   margin-bottom: 0.1rem;
-  font-weight: 650;
 }
 
 main li:last-child {
   margin-bottom: 0;
 }
 
-main li > a {
+main li > a,
+main li > p:first-child > a {
   display: block;
+  font-weight: 650;
 }
 
-main li > a + .role-tag {
+main li > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+main li > p:not(:first-child) {
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+main li > a + .role-tag,
+main li > p:first-child > a + .role-tag {
   margin-left: 0;
   margin-top: 0.2rem;
 }

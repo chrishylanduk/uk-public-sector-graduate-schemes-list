@@ -36,6 +36,15 @@ This repository contains the Markdown source, build tooling, and static assets t
 - Role types must appear as `{Role Type}` tags, matching the canonical labels defined in `config/roles.json`. Multiple tags are allowed and should be ordered from most to least relevant.
 - If a scheme belongs in a new organisation type section, add a heading (`##`, `###`, etc.) before the list so the generated navigation stays organised.
 - Ensure the scheme is inserted in alphabetical order within its section.
+- To include an explanatory note, add a blank line followed by an paragraph beneath the list item:
+
+  ```markdown
+  - [Example Scheme](https://example.org) {Policy}
+
+    Runs annual campaigns focused on environmental policy.
+  ```
+
+  That indented paragraph will appear with the same styling as other descriptive text on the page.
 
 ### Role types and colours
 
@@ -77,6 +86,8 @@ These Civil Service schemes generally advertise on [Civil Service Jobs](https://
 - [Civil Service Fast Stream](https://www.faststream.gov.uk) {Generalist & Leadership} {Policy} {Digital, Data & Cyber} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Legal, Risk & Compliance}
 - [Yorkshire Development Scheme](https://www.linkedin.com/posts/katie-farrington-2a441488_i-met-the-latest-group-of-yorkshire-development-activity-7259595864606756865-7J_B/) {Generalist & Leadership}
 
+  Historically recruits via Fast Stream near-misses
+
 ### Analytical professions
 
 See the [Government Analysis Function guidance on Mainstream profession recruitment](https://analysisfunction.civilservice.gov.uk/careers/the-analysis-function-resourcing-hub/mainstream-profession-recruitment/) for a summary.
@@ -93,6 +104,7 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 - [Crown Prosecution Service (CPS), Legal trainee scheme](https://www.cps.gov.uk/careers/legal-trainee) {Legal, Risk & Compliance}
 - [Government Legal Profession, Legal trainee scheme](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply) {Legal, Risk & Compliance}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
+- [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
 
 ### Departmental & policy schemes
 
@@ -137,6 +149,7 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 - [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [Nuclear Graduates](https://nucleargraduates.com/disciplines) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Submarine Delivery Agency (SDA) graduate schemes](https://www.gov.uk/government/publications/sda-graduate-schemes/sda-graduate-schemes) {Project, Infrastructure & Property Management} {Science, Engineering & Environment}
+- [UK Atomic Energy Authority (UKAEA) Graduate Development Programme](https://careers.ukaea.uk/early-careers/graduate-scheme/) {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Infrastructure, transport & energy
 
@@ -161,17 +174,21 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 
 ### Northern Ireland
 
+- [Northern Ireland Audit Office (NIAO) Trainee Accountant Scheme](https://www.niauditoffice.gov.uk/trainee-accountant-scheme) {Finance, Audit & Commercial}
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net) {Generalist & Leadership} {Policy}
-- [Nothern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
+- [Northern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
 
 ### Scotland
 
+- [Audit Scotland Graduate Trainee Auditor scheme](https://audit.scot/about-us/work-with-us/graduates) {Finance, Audit & Commercial}
 - [Scottish Government Future Planners Programme](https://www.gov.scot/publications/future-planners-programme-2025-candidate-guide/pages/about-the-programme/) {Education & Planning}
 - [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
+- [Scottish Water Graduate Programmes](https://www.scottishwater.co.uk/about-us/careers/graduate-programmes) {Generalist & Leadership} {Science, Engineering & Environment} {Digital, Data & Cyber} {Finance, Audit & Commercial} {HR, Communications & Creative} {Project, Infrastructure & Property Management}
 
 ### Wales
 
 - [All Wales Public Service Graduate Programme](https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme) {Generalist & Leadership} {Policy}
+- [Audit Wales Graduate Trainee programme](https://www.audit.wales/jobs/graduate-scheme) {Finance, Audit & Commercial}
 
 ## Local Government
 
@@ -205,12 +222,14 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 ## Police
 
 - [British Transport Police Graduate Programme](https://careers.btp.police.uk/roles/graduate-programme/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
+- [National Crime Agency (NCA) Officer Development Programme (ODP)](https://www.nationalcrimeagency.gov.uk/careers/how-to-join-the-nca/entry-level-roles?view=article&id=3073:nca-officer-development-programme-odp&catid=10:careers) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [Police Degree Holder Entry Programme (DHEP)](https://www.joiningthepolice.co.uk/application-process/ways-in-to-policing/degree-holder-entry-programme-dhep) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [Police Now](http://www.policenow.org.uk/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 
-## Prisons
+## Prisons & probation
 
+- [HM Prison & Probation Service Trainee Probation Officer Programme (PQiP)](https://prisonandprobationjobs.gov.uk/roles-at-hmpps/overview-of-the-probation-officer-role/probation-officer-training-pqip/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 - [Unlocked](http://unlockedgrads.org.uk/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
 ## Social work
