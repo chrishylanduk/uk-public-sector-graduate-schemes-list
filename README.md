@@ -48,8 +48,8 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 
 ## Armed Forces
 
-- [Royal Air Force graduates](https://recruitment.raf.mod.uk/graduates) {Generalist & Leadership} {Science, Engineering & Environment} {Health, Policing & Social Care Professions} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Legal, Risk & Compliance}
 - [British Army Regular Officer](https://jobs.army.mod.uk/regular-army/entry-options/officer/) {Generalist & Leadership} {Science, Engineering & Environment} {Health, Policing & Social Care Professions} {Digital, Data & Cyber} {Economics, Research & Analysis} {HR, Communications & Creative} {Legal, Risk & Compliance} {Project, Infrastructure & Property Management}
+- [Royal Air Force graduates](https://recruitment.raf.mod.uk/graduates) {Generalist & Leadership} {Science, Engineering & Environment} {Health, Policing & Social Care Professions} {Economics, Research & Analysis} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Legal, Risk & Compliance}
 - [Royal Navy graduates](https://www.royalnavy.mod.uk/careers/joining-options/graduates) {Generalist & Leadership} {Science, Engineering & Environment} {Health, Policing & Social Care Professions} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Digital, Data & Cyber}
 
 ## Intelligence Services
@@ -110,8 +110,8 @@ See the [Government Analysis Function guidance on Mainstream profession recruitm
 
 ### Scotland
 
-- [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
 - [Scottish Government Future Planners Programme](https://www.gov.scot/publications/future-planners-programme-2025-candidate-guide/pages/about-the-programme/) {Education & Planning}
+- [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
 
 ### Wales
 
