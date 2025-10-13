@@ -64,7 +64,6 @@
           class="role-filter"
           data-js="role-filter"
           aria-labelledby="filter-title"
-          hidden
         >
           <summary class="role-filter__summary">Select role types</summary>
           <div class="role-filter__content">
@@ -73,7 +72,9 @@
               least one of them
             </p>
             <div class="role-filter__controls">
-              <div class="role-filter__list" data-js="role-filter-list"></div>
+              <div class="role-filter__list" data-js="role-filter-list">
+                {{ roleFilterList }}
+              </div>
               <button
                 type="button"
                 class="role-filter__clear"
@@ -121,11 +122,9 @@
           </div>
         </div>
       </form>
-      <p
-        id="results-summary"
-        class="site-search__summary"
-        aria-live="polite"
-      ></p>
+      <p id="results-summary" class="site-search__summary" aria-live="polite">
+        {{ resultsSummary }}
+      </p>
       <nav aria-label="Organisation types" class="site-nav">
         <h2 class="site-nav__title">Organisation types</h2>
         <details class="site-nav__accordion">

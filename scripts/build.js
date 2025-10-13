@@ -61,6 +61,51 @@ function buildNavHtml(navItems) {
     .join("\n          ");
 }
 
+function buildRoleFilterListHtml(roleConfig) {
+  const entries = Object.entries(roleConfig || {});
+
+  if (entries.length === 0) {
+    return "";
+  }
+
+  return entries
+    .map(([slug, config]) => {
+      const safeSlug = escapeHtml(slug);
+      const labelText = config?.label || slug;
+      const safeLabel = escapeHtml(labelText);
+      const id = `role-filter-${slug}`;
+      const safeId = escapeHtml(id);
+
+      return `
+                <div class="role-filter__item">
+                  <input type="checkbox" class="role-filter__checkbox" id="${safeId}" name="role-filter" value="${safeSlug}" />
+                  <label class="role-filter__label" for="${safeId}">
+                    <span class="role-tag role-tag--filter" data-role="${safeSlug}" data-role-label="${safeLabel}">${safeLabel}</span>
+                  </label>
+                </div>`;
+    })
+    .join("");
+}
+
+function countSchemeItems(contentHtml) {
+  if (!contentHtml || typeof contentHtml !== "string") {
+    return 0;
+  }
+
+  const schemePattern = /<li\b[^>]*>[\s\S]*?class="role-tag\b[\s\S]*?<\/li>/gi;
+  const matches = contentHtml.match(schemePattern);
+  return matches ? matches.length : 0;
+}
+
+function buildResultsSummary(totalItems) {
+  if (!Number.isFinite(totalItems) || totalItems <= 0) {
+    return "No schemes available.";
+  }
+
+  const plural = totalItems === 1 ? "scheme" : "schemes";
+  return `Showing all ${totalItems} ${plural}.`;
+}
+
 function applyTemplate(template, replacements) {
   return Object.entries(replacements).reduce((html, [placeholder, value]) => {
     return html.replaceAll(placeholder, value);
@@ -140,6 +185,9 @@ function buildSite() {
     : contentHtml;
 
   const cacheBuster = Date.now().toString();
+  const roleFilterList = buildRoleFilterListHtml(roleConfigData);
+  const totalSchemes = countSchemeItems(contentWithCalloutHtml);
+  const resultsSummary = buildResultsSummary(totalSchemes);
   const replacements = {
     "{{ title }}": escapeHtml(pageTitle),
     "{{ description }}": escapeHtml(description),
@@ -155,6 +203,8 @@ function buildSite() {
     "{{ jsonLd }}": structuredData,
     "{{ roleConfigJson }}": JSON.stringify(roleConfigData),
     "{{ cacheBuster }}": cacheBuster,
+    "{{ roleFilterList }}": roleFilterList,
+    "{{ resultsSummary }}": escapeHtml(resultsSummary),
   };
 
   const finalHtml = applyTemplate(template, replacements);

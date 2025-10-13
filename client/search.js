@@ -368,7 +368,7 @@
           }
 
           if (roleTags.length > 0) {
-            this.ensureRoleDetails(item, roleTags);
+            this.ensureRoleDetails(item);
           }
 
           return {
@@ -699,55 +699,38 @@
         .filter(Boolean);
     }
 
-    ensureRoleDetails(itemElement, roleTags) {
-      if (!itemElement || !Array.isArray(roleTags) || roleTags.length === 0) {
+    ensureRoleDetails(itemElement) {
+      if (!itemElement) {
         return;
       }
 
       let details = itemElement.querySelector(".role-tag-details");
-      let contentContainer = details
+      const contentContainer = details
         ? details.querySelector(".role-tag-details__content")
         : null;
 
-      if (!details) {
-        details = document.createElement("details");
-        details.className = "role-tag-details";
-
-        const summary = document.createElement("summary");
-        summary.className = "role-tag-details__summary";
-        summary.textContent = "View all role types";
-        details.append(summary);
-
-        contentContainer = document.createElement("div");
-        contentContainer.className = "role-tag-details__content";
-        details.append(contentContainer);
-
-        itemElement.append(details);
-      } else if (!contentContainer) {
-        contentContainer = document.createElement("div");
-        contentContainer.className = "role-tag-details__content";
-        details.append(contentContainer);
-      } else {
-        contentContainer.innerHTML = "";
+      if (!contentContainer) {
+        return;
       }
 
       const seen = new Set();
 
-      roleTags.forEach((tag) => {
-        const slug = (tag.dataset.role || "").trim();
+      Array.from(contentContainer.children).forEach((pill) => {
+        const slug = (pill.dataset.role || "").trim();
 
         if (!slug || seen.has(slug)) {
+          pill.remove();
           return;
         }
 
         seen.add(slug);
 
-        const clone = tag.cloneNode(true);
-        clone.classList.add("role-tag--details");
-        clone.hidden = false;
-        clone.classList.remove("role-tag--filtered-out");
-        this.colors.applyToElement(clone, slug);
-        contentContainer.append(clone);
+        pill.classList.add("role-tag--details");
+        pill.hidden = false;
+        pill.removeAttribute("hidden");
+        pill.removeAttribute("aria-hidden");
+        pill.classList.remove("role-tag--filtered-out");
+        this.colors.applyToElement(pill, slug);
       });
     }
 
@@ -771,6 +754,7 @@
         roleTags.forEach((tag) => {
           tag.hidden = true;
           tag.classList.add("role-tag--filtered-out");
+          tag.setAttribute("aria-hidden", "true");
         });
         return;
       }
@@ -781,10 +765,13 @@
 
         if (isSelected) {
           tag.hidden = false;
+          tag.removeAttribute("hidden");
           tag.classList.remove("role-tag--filtered-out");
+          tag.removeAttribute("aria-hidden");
         } else {
           tag.hidden = true;
           tag.classList.add("role-tag--filtered-out");
+          tag.setAttribute("aria-hidden", "true");
         }
       });
     }

@@ -67,6 +67,6 @@ export function transformRoleTags(markdown, roleAliasMap) {
     const slug = matchedConfig?.slug || slugifyRole(label) || "role";
     const displayLabel = matchedConfig?.config?.label || label;
 
-    return `<span class="role-tag" data-role="${escapeHtml(slug)}" data-role-label="${escapeHtml(displayLabel)}">${escapeHtml(displayLabel)}</span>`;
+    return `<span class="role-tag" data-role="${escapeHtml(slug)}" data-role-label="${escapeHtml(displayLabel)}" hidden aria-hidden="true">${escapeHtml(displayLabel)}</span>`;
   });
 }
