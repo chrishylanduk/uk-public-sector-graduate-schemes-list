@@ -11,16 +11,17 @@ This repository contains the Markdown source, build tooling, and static assets t
 ### Install & build
 
 - `npm install` – install dependencies.
-- `npm run build` – regenerate `dist/index.html` and copy static assets.
+- `npm run build` – regenerate `dist/index.html`, copy static assets, and transpile the client bundle with `esbuild`. The build exits with an error if `esbuild` is missing.
 
 ### Tooling
 
 - Optional: `pre-commit install` to enable the configured lint/format hooks, or run them manually with `pre-commit run --all-files`.
+- Client-side code is authored in modern JavaScript and must be transpiled; install dependencies so `esbuild` is available before running the build.
 
 ### Project structure
 
 - `scripts/build.js` orchestrates the Markdown → HTML build and pulls helpers from `scripts/utils/`.
-- `static/search.js` handles client-side filtering and navigation behaviour.
+- `client/search.js` handles client-side filtering and navigation behaviour and is transpiled into `dist/search.js` during the build.
 - Role names and aliases live in `config/roles.json`.
 
 ## Content structure

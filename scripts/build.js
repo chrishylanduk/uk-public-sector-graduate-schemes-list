@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { marked } from "marked";
+import { createRequire } from "module";
 import { projectRoot, paths } from "./utils/paths.js";
 import { loadRoleConfig, transformRoleTags } from "./utils/roleConfig.js";
 import {
@@ -11,6 +12,18 @@ import {
 import { buildMetadata } from "./utils/metadata.js";
 import { escapeHtml } from "./utils/html.js";
 import { extractSiteContent } from "./utils/readme.js";
+
+const require = createRequire(import.meta.url);
+
+let transformSync;
+try {
+  ({ transformSync } = require("esbuild"));
+} catch (error) {
+  throw new Error(
+    "esbuild is required to build the client bundle. Install dependencies with `npm install` before running the build.",
+    { cause: error },
+  );
+}
 
 function readSourceFiles() {
   const readme = fs.readFileSync(paths.readme, "utf8");
@@ -81,6 +94,16 @@ function copyStaticAssets() {
   });
 }
 
+function transpileClientScripts() {
+  const searchSource = fs.readFileSync(paths.searchScript, "utf8");
+  const { code } = transformSync(searchSource, {
+    loader: "js",
+    target: "es2018",
+    format: "esm",
+  });
+  fs.writeFileSync(path.join(paths.distDir, "search.js"), `${code}\n`);
+}
+
 function buildSite() {
   const { siteMarkdown, template } = readSourceFiles();
   const { roleConfigData, roleAliasMap } = loadRoleConfig(paths.roleConfig);
@@ -138,6 +161,7 @@ function buildSite() {
 
   writeOutput(finalHtml);
   copyStaticAssets();
+  transpileClientScripts();
 
   console.log(`Built ${path.relative(projectRoot, paths.outputHtml)}`);
 }

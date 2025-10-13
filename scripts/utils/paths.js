@@ -13,4 +13,5 @@ export const paths = {
   distDir: path.join(projectRoot, "dist"),
   outputHtml: path.join(projectRoot, "dist", "index.html"),
   roleConfig: path.join(projectRoot, "config", "roles.json"),
+  searchScript: path.join(projectRoot, "client", "search.js"),
 };
