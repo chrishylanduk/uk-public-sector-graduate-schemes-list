@@ -98,6 +98,7 @@ Please either:
 - [Crown Prosecution Service (CPS), Legal trainee scheme](https://www.cps.gov.uk/careers/legal-trainee) {Legal, Risk & Compliance}
 - [Government Legal Profession, Legal trainee scheme](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply) {Legal, Risk & Compliance}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
+- [Office for Product Safety and Standards (OPSS) Regulatory Leaders Graduate Scheme (RLGS)](https://opss-careers.co.uk/rlgs/) {Regulation & Enforcement} {Generalist & Leadership} {Policy}
 - [Ofwat Graduate Development Programme](https://www.ofwat.gov.uk/early-careers/grads) {Policy} {Economics, Research & Analysis} {Science, Engineering & Environment} {Regulation & Enforcement} {Legal, Risk & Compliance}
 - [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
 
@@ -183,6 +184,7 @@ Please either:
 - [Northern Ireland Audit Office (NIAO) Trainee Accountant Scheme](https://www.niauditoffice.gov.uk/trainee-accountant-scheme) {Finance, Audit & Commercial}
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net) {Generalist & Leadership} {Policy}
 - [Northern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
+- [Northern Ireland Water Entry Level Academy](https://www.niwater.com/about-us/news/2025/ni-water-recruiting-over-twenty-apprentices-and-graduates-across-northern-ireland) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
 
 ### Scotland
 
@@ -244,6 +246,7 @@ Please either:
 ## Social work
 
 - [Approach Social Work (previously Frontline)](https://thefrontline.org.uk/become-a-social-worker/approach-social-work/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
+- [Step up to social work](https://www.gov.uk/guidance/step-up-to-social-work) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
 ## Teaching
 
