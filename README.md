@@ -98,15 +98,17 @@ Please either:
 - [Crown Prosecution Service (CPS), Legal trainee scheme](https://www.cps.gov.uk/careers/legal-trainee) {Legal, Risk & Compliance}
 - [Government Legal Profession, Legal trainee scheme](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply) {Legal, Risk & Compliance}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
+- [Ofwat Graduate Development Programme](https://www.ofwat.gov.uk/early-careers/grads) {Policy} {Economics, Research & Analysis} {Science, Engineering & Environment} {Regulation & Enforcement} {Legal, Risk & Compliance}
 - [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
 
 ### Departmental & policy schemes
 
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
-- [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/) {Policy} {Economics, Research & Analysis}
+- [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/#:~:text=Graduate%20Development%20Programme) {Policy} {Economics, Research & Analysis}
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
 - [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/) {Digital, Data & Cyber}
-- [Ministry of Defence Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM) {Finance, Audit & Commercial} {Economics, Research & Analysis}
+- [Ministry of Defence (MoD) Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM) {Finance, Audit & Commercial} {Economics, Research & Analysis}
+- [Ministry of Defence (MoD) Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure) {Finance, Audit & Commercial}
 - [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Policy} {Operational Delivery & Public Services}
 
   Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
@@ -131,7 +133,8 @@ Please either:
 
 ### Economic, financial & regulatory bodies
 
-- [Bank of England graduate schemes](https://www.bankofengland.co.uk/careers/early-careers) {Finance, Audit & Commercial} {Economics, Research & Analysis} {Legal, Risk & Compliance} {Digital, Data & Cyber} {Regulation & Enforcement}
+- [Bank of England graduate schemes](https://www.bankofengland.co.uk/careers/early-careers#:~:text=Graduate%20programmes) {Finance, Audit & Commercial} {Economics, Research & Analysis} {Legal, Risk & Compliance} {Digital, Data & Cyber} {Regulation & Enforcement}
+- [Care Quality Commission (CQC) data and insight graduate jobs](https://www.cqc.org.uk/about-us/jobs/data-and-insight-jobs-cqc) {Digital, Data & Cyber} {Economics, Research & Analysis}
 - [Financial Conduct Authority (FCA) graduate schemes](https://www.fca.org.uk/careers/early-careers) {Regulation & Enforcement}{Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Digital, Data & Cyber}
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/) {Policy} {Digital, Data & Cyber} {Economics, Research & Analysis} {Regulation & Enforcement} {Science, Engineering & Environment}
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme) {Regulation & Enforcement} {Economics, Research & Analysis} {Policy} {Project, Infrastructure & Property Management} {Generalist & Leadership}
@@ -157,9 +160,11 @@ Please either:
 
 ### Science, environment & technology
 
+- [Driver and Vehicle Licensing Agency (DVLA) Digital Development Programmes](https://careers.dft.gov.uk/our-dft-family/driver-and-vehicle-licensing-agency/digital/#:~:text=DVLA%20Digital%20Development%20Programmes) {Digital, Data & Cyber}
 - [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
 - [Forestry England Graduate Leadership Programme](https://www.forestryengland.uk/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
+- [Intellectual Property Office (IPO) Associate Patent Examiner](https://www.civil-service-careers.gov.uk/departments/working_for_ipo/ipo-opportunities) {Science, Engineering & Environment}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/) {Science, Engineering & Environment} {HR, Communications & Creative} {Digital, Data & Cyber} {Project, Infrastructure & Property Management}
 
@@ -168,6 +173,10 @@ Please either:
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme) {Science, Engineering & Environment} {Regulation & Enforcement}
 
 ## Nations
+
+### England
+
+- [Transport for London graduate scheme](https://tfl.gov.uk/corporate/careers/graduates) {Generalist & Leadership} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Northern Ireland
 
@@ -178,6 +187,7 @@ Please either:
 ### Scotland
 
 - [Audit Scotland Graduate Trainee Auditor scheme](https://audit.scot/about-us/work-with-us/graduates) {Finance, Audit & Commercial}
+- [Scottish Enterprise graduate roles](https://www.scottish-enterprise.com/our-organisation/work-with-us/career-starters) {Digital, Data & Cyber} {Finance, Audit & Commercial} {HR, Communications & Creative} {Project, Infrastructure & Property Management} {Legal, Risk & Compliance}
 - [Scottish Government Future Planners Programme](https://www.gov.scot/publications/future-planners-programme-2025-candidate-guide/pages/about-the-programme/) {Education & Planning}
 - [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
 - [Scottish Water Graduate Programmes](https://www.scottishwater.co.uk/about-us/careers/graduate-programmes) {Generalist & Leadership} {Science, Engineering & Environment} {Digital, Data & Cyber} {Finance, Audit & Commercial} {HR, Communications & Creative} {Project, Infrastructure & Property Management}
@@ -186,6 +196,7 @@ Please either:
 
 - [All Wales Public Service Graduate Programme](https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme) {Generalist & Leadership} {Policy}
 - [Audit Wales Graduate Trainee programme](https://www.audit.wales/jobs/graduate-scheme) {Finance, Audit & Commercial}
+- [Transport for Wales Future Leaders Graduate Scheme](https://tfw.wales/info-for/job-hunters/graduate-scheme) {Generalist & Leadership} {Finance, Audit & Commercial} {Science, Engineering & Environment} {HR, Communications & Creative} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Education & Planning}
 
 ## Local Government
 
@@ -197,6 +208,8 @@ Please either:
 ### Local and regional schemes
 
 - [Basildon Council graduate programme](https://www.basildon.gov.uk/article/4342/Graduate-recruitment-at-Basildon-Council) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Carmarthenshire County Council Graduate Programme](https://www.carmarthenshire.gov.wales/council-services/jobs-careers/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Essex County Council Graduate Programmes](https://workingforessex.com/working-here/entry-to-work#:~:text=Graduate%20Programmes) {Finance, Audit & Commercial} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
@@ -206,7 +219,6 @@ Please either:
 - [Solihull Council graduate programmes](https://www.solihull.gov.uk/jobs-and-training/graduate-opportunities) {Operational Delivery & Public Services} {Economics, Research & Analysis} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk Graduate Partnership](https://recruitment.westsuffolk.gov.uk/workforce/graduates.cfm) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
-- [Transport for London graduate scheme](https://tfl.gov.uk/corporate/careers/graduates) {Generalist & Leadership} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ## Healthcare and the NHS
 
