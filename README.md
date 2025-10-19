@@ -170,6 +170,7 @@ Please either:
 
 ### Health, safety & standards
 
+- [Health and Safety Executive (HSE) Trainee Inspector of Health and Safety programme](https://careers.hse.gov.uk/professions/health-and-safety-inspectors/) {Regulation & Enforcement}
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme) {Science, Engineering & Environment} {Regulation & Enforcement}
 
 ## Nations
@@ -177,6 +178,7 @@ Please either:
 ### England
 
 - [Forestry England Graduate Leadership Programme](https://www.forestryengland.uk/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Homes England graduate programme](https://www.homesenglandcareers.com/graduates) {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Legal, Risk & Compliance} {Economics, Research & Analysis} {Digital, Data & Cyber} {Policy} {HR, Communications & Creative} {Operational Delivery & Public Services}
 - [Transport for London graduate scheme](https://tfl.gov.uk/corporate/careers/graduates) {Generalist & Leadership} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Northern Ireland
@@ -200,27 +202,47 @@ Please either:
 - [Audit Wales Graduate Trainee programme](https://www.audit.wales/jobs/graduate-scheme) {Finance, Audit & Commercial}
 - [Transport for Wales Future Leaders Graduate Scheme](https://tfw.wales/info-for/job-hunters/graduate-scheme) {Generalist & Leadership} {Finance, Audit & Commercial} {Science, Engineering & Environment} {HR, Communications & Creative} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Education & Planning}
 
-## Local Government
+## Local Councils
 
 ### National schemes
 
 - [Impact: The Local Government Graduate Programme](https://www.local.gov.uk/impact-local-government-graduate-programme-candidates) {Generalist & Leadership} {Operational Delivery & Public Services} {Finance, Audit & Commercial}
 - [Pathways to Planning](https://www.local.gov.uk/pathways-to-planning) {Education & Planning}
 
-### Local and regional schemes
-
+### East of England
 - [Basildon Council graduate programme](https://www.basildon.gov.uk/article/4342/Graduate-recruitment-at-Basildon-Council) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [Carmarthenshire County Council Graduate Programme](https://www.carmarthenshire.gov.wales/council-services/jobs-careers/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Essex County Council Graduate Programmes](https://workingforessex.com/working-here/entry-to-work#:~:text=Graduate%20Programmes) {Finance, Audit & Commercial} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [Rhondda Cynon Taff Council Graduate Programme](https://www.rctcbc.gov.uk/EN/Resident/JobsandTraining/Jobs/ApprenticeshipsGraduateSchemes/GraduateScheme/AbouttheGraduateProgramme.aspx) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
-- [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/) {Generalist & Leadership} {Operational Delivery & Public Services}
-- [Solihull Council graduate programmes](https://www.solihull.gov.uk/jobs-and-training/graduate-opportunities) {Operational Delivery & Public Services} {Economics, Research & Analysis} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk Graduate Partnership](https://recruitment.westsuffolk.gov.uk/workforce/graduates.cfm) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
+
+### South East England
+- [Hampshire County Council graduate schemes](https://www.hants.gov.uk/jobs/graduateschemes) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services} {Generalist & Leadership}
+- [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+
+### London
+- [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/) {Generalist & Leadership} {Operational Delivery & Public Services}
+
+### East Midlands
+- [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+
+### West Midlands
+- [Solihull Council graduate programmes](https://www.solihull.gov.uk/jobs-and-training/graduate-opportunities) {Operational Delivery & Public Services} {Economics, Research & Analysis} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
+
+### North West England
+- [Manchester City Council Graduate Scheme](https://jobs.manchester.gov.uk/kickstart-your-career.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
+
+### Yorkshire and the Humber
+- [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
+
+### Scotland
+- [Falkirk Council graduate scheme](https://www.falkirk.gov.uk/jobs-careers-and-training/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Glasgow City Council Audit Trainee programme](https://www.glasgow.gov.uk/article/10918/Glasgow-City-Council-Audit-Trainee-programme) {Finance, Audit & Commercial}
+
+### Wales
+
+- [Carmarthenshire County Council Graduate Programme](https://www.carmarthenshire.gov.wales/council-services/jobs-careers/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Rhondda Cynon Taff Council Graduate Programme](https://www.rctcbc.gov.uk/EN/Resident/JobsandTraining/Jobs/ApprenticeshipsGraduateSchemes/GraduateScheme/AbouttheGraduateProgramme.aspx) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
 
 ## Healthcare and the NHS
 
@@ -238,12 +260,12 @@ Please either:
 - [Police Now](http://www.policenow.org.uk/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 
-## Prisons & probation
+## Prisons & Probation
 
 - [HM Prison & Probation Service Trainee Probation Officer Programme (PQiP)](https://prisonandprobationjobs.gov.uk/roles-at-hmpps/overview-of-the-probation-officer-role/probation-officer-training-pqip/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 - [Unlocked](http://unlockedgrads.org.uk/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
-## Social work
+## Social Work
 
 - [Approach Social Work (previously Frontline)](https://thefrontline.org.uk/become-a-social-worker/approach-social-work/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 - [Step up to social work](https://www.gov.uk/guidance/step-up-to-social-work) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
