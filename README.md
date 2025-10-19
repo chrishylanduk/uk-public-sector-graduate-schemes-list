@@ -260,7 +260,7 @@ Please either:
 - [Police Now](http://www.policenow.org.uk/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 
-## Prisons & Probation
+## Prisons and Probation
 
 - [HM Prison & Probation Service Trainee Probation Officer Programme (PQiP)](https://prisonandprobationjobs.gov.uk/roles-at-hmpps/overview-of-the-probation-officer-role/probation-officer-training-pqip/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 - [Unlocked](http://unlockedgrads.org.uk/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
