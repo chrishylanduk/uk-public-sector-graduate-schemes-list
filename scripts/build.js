@@ -12,6 +12,7 @@ import {
 import { buildMetadata } from "./utils/metadata.js";
 import { escapeHtml } from "./utils/html.js";
 import { extractSiteContent } from "./utils/readme.js";
+import { generateSitemap } from "./utils/sitemap.js";
 
 const require = createRequire(import.meta.url);
 
@@ -117,6 +118,13 @@ function writeOutput(html) {
   fs.writeFileSync(paths.outputHtml, html);
 }
 
+function writeSitemap(siteUrl, lastModified) {
+  const sitemapContent = generateSitemap({ siteUrl, lastModified });
+  const sitemapPath = path.join(paths.distDir, "sitemap.xml");
+  fs.writeFileSync(sitemapPath, sitemapContent);
+  console.log(`Built ${path.relative(projectRoot, sitemapPath)}`);
+}
+
 function copyStaticAssets() {
   if (!fs.existsSync(paths.staticDir)) {
     console.warn(
@@ -170,12 +178,14 @@ function buildSite() {
   const calloutHtml = renderCallout(calloutTokens, calloutHeading);
   const description = buildDescription({ pageTitle, plainIntro });
   const pageUrl = resolveSiteUrl();
+  const lastModified = new Date();
 
-  const { canonicalTag, openGraphTags, twitterTags, structuredData } =
+  const { canonicalTag, openGraphTags, twitterTags, structuredData, lastModifiedMeta } =
     buildMetadata({
       pageTitle,
       description,
       pageUrl,
+      lastModified,
     });
 
   const introHtml = introHtmlParts.join("\n\n        ");
@@ -196,10 +206,11 @@ function buildSite() {
     "{{ content }}": contentWithCalloutHtml,
     "{{ lastUpdated }}": new Intl.DateTimeFormat("en-GB", {
       dateStyle: "long",
-    }).format(new Date()),
+    }).format(lastModified),
     "{{ canonical }}": canonicalTag,
     "{{ metaOg }}": openGraphTags,
     "{{ metaTwitter }}": twitterTags,
+    "{{ metaLastModified }}": lastModifiedMeta,
     "{{ jsonLd }}": structuredData,
     "{{ roleConfigJson }}": JSON.stringify(roleConfigData),
     "{{ cacheBuster }}": cacheBuster,
@@ -212,6 +223,7 @@ function buildSite() {
   writeOutput(finalHtml);
   copyStaticAssets();
   transpileClientScripts();
+  writeSitemap(pageUrl, lastModified);
 
   console.log(`Built ${path.relative(projectRoot, paths.outputHtml)}`);
 }

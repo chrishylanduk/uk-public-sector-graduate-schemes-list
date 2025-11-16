@@ -4,13 +4,14 @@ function buildCanonicalTag(url) {
   return url ? `<link rel="canonical" href="${escapeHtml(url)}">` : "";
 }
 
-function buildOpenGraphTags({ pageUrl, pageTitle, description }) {
+function buildOpenGraphTags({ pageUrl, pageTitle, description, lastModified }) {
   const tags = [
     '<meta property="og:type" content="website">',
     pageUrl ? `<meta property="og:url" content="${escapeHtml(pageUrl)}">` : "",
     `<meta property="og:title" content="${escapeHtml(pageTitle)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:site_name" content="${escapeHtml(pageTitle)}">`,
+    lastModified ? `<meta property="article:modified_time" content="${escapeHtml(lastModified.toISOString())}">` : "",
   ];
 
   return tags.filter(Boolean).join("\n    ");
@@ -27,7 +28,7 @@ function buildTwitterTags({ pageUrl, pageTitle, description }) {
   return tags.filter(Boolean).join("\n    ");
 }
 
-function buildStructuredData({ pageUrl, pageTitle, description }) {
+function buildStructuredData({ pageUrl, pageTitle, description, lastModified }) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -43,14 +44,26 @@ function buildStructuredData({ pageUrl, pageTitle, description }) {
     structuredData.url = pageUrl;
   }
 
+  if (lastModified) {
+    structuredData.dateModified = lastModified.toISOString();
+  }
+
   return `<script type="application/ld+json">\n${JSON.stringify(structuredData, null, 2)}\n    </script>`;
 }
 
-export function buildMetadata({ pageTitle, description, pageUrl }) {
+function buildLastModifiedMeta(lastModified) {
+  if (!lastModified) {
+    return "";
+  }
+  return `<meta http-equiv="last-modified" content="${escapeHtml(lastModified.toUTCString())}">`;
+}
+
+export function buildMetadata({ pageTitle, description, pageUrl, lastModified }) {
   return {
     canonicalTag: buildCanonicalTag(pageUrl),
-    openGraphTags: buildOpenGraphTags({ pageUrl, pageTitle, description }),
+    openGraphTags: buildOpenGraphTags({ pageUrl, pageTitle, description, lastModified }),
     twitterTags: buildTwitterTags({ pageUrl, pageTitle, description }),
-    structuredData: buildStructuredData({ pageUrl, pageTitle, description }),
+    structuredData: buildStructuredData({ pageUrl, pageTitle, description, lastModified }),
+    lastModifiedMeta: buildLastModifiedMeta(lastModified),
   };
 }

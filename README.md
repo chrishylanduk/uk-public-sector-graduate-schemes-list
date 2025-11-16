@@ -99,6 +99,7 @@ Please either:
 - [Government Legal Profession, Legal trainee scheme](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply) {Legal, Risk & Compliance}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
 - [Office for Product Safety and Standards (OPSS) Regulatory Leaders Graduate Scheme (RLGS)](https://opss-careers.co.uk/rlgs/) {Regulation & Enforcement} {Generalist & Leadership} {Policy}
+- [Ofqual graduate scheme](https://www.linkedin.com/posts/ofqual_apply-now-for-our-first-ever-graduate-scheme-activity-7170372433059766272-agCH) {Regulation & Enforcement} {Education & Planning}
 - [Ofwat Graduate Development Programme](https://www.ofwat.gov.uk/early-careers/grads) {Policy} {Economics, Research & Analysis} {Science, Engineering & Environment} {Regulation & Enforcement} {Legal, Risk & Compliance}
 - [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
 
@@ -162,7 +163,7 @@ Please either:
 ### Science, environment & technology
 
 - [Driver and Vehicle Licensing Agency (DVLA) Digital Development Programmes](https://careers.dft.gov.uk/our-dft-family/driver-and-vehicle-licensing-agency/digital/#:~:text=DVLA%20Digital%20Development%20Programmes) {Digital, Data & Cyber}
-- [Environment Agency Environment and Science Graduate Training Scheme](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
+- [Environment Agency Environment and Science Graduate Training Scheme (ES-GTS)](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
 - [Intellectual Property Office (IPO) Associate Patent Examiner](https://www.civil-service-careers.gov.uk/departments/working_for_ipo/ipo-opportunities) {Science, Engineering & Environment}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
@@ -195,11 +196,14 @@ Please either:
 - [Scottish Government Future Planners Programme](https://www.gov.scot/publications/future-planners-programme-2025-candidate-guide/pages/about-the-programme/) {Education & Planning}
 - [Scottish Government Graduate Development Programme](https://www.jobs.gov.scot/early-careers) {Generalist & Leadership} {Policy}
 - [Scottish Water Graduate Programmes](https://www.scottishwater.co.uk/about-us/careers/graduate-programmes) {Generalist & Leadership} {Science, Engineering & Environment} {Digital, Data & Cyber} {Finance, Audit & Commercial} {HR, Communications & Creative} {Project, Infrastructure & Property Management}
+- [Skills Development Scotland Trainee Careers Adviser and Graduate Interns](https://www.skillsdevelopmentscotland.co.uk/work-with-us/young-talent-programme) {Education & Planning} {Digital, Data & Cyber} {HR, Communications & Creative} {Economics, Research & Analysis}
+- [Transport Scotland Graduate Training Scheme](https://www.transport.gov.scot/about/careers/graduate-training-scheme) {Science, Engineering & Environment} {Education & Planning}
 
 ### Wales
 
 - [All Wales Public Service Graduate Programme](https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme) {Generalist & Leadership} {Policy}
 - [Audit Wales Graduate Trainee programme](https://www.audit.wales/jobs/graduate-scheme) {Finance, Audit & Commercial}
+- [Natural Resources Wales graduate scheme](https://naturalresources.wales/about-us/jobs-apprenticeships-and-placements/placements-apprenticeships-and-volunteering) {Science, Engineering & Environment}
 - [Transport for Wales Future Leaders Graduate Scheme](https://tfw.wales/info-for/job-hunters/graduate-scheme) {Generalist & Leadership} {Finance, Audit & Commercial} {Science, Engineering & Environment} {HR, Communications & Creative} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {Economics, Research & Analysis} {Education & Planning}
 
 ## Local Councils
@@ -238,6 +242,7 @@ Please either:
 ### Scotland
 - [Falkirk Council graduate scheme](https://www.falkirk.gov.uk/jobs-careers-and-training/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Glasgow City Council Audit Trainee programme](https://www.glasgow.gov.uk/article/10918/Glasgow-City-Council-Audit-Trainee-programme) {Finance, Audit & Commercial}
+- [Glasgow City Council Graduate Development Programme](https://glasgow.gov.uk/article/4380/Graduate-Opportunities) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### Wales
 
@@ -279,6 +284,6 @@ Please either:
 - [BBC graduate schemes](https://careers.bbc.co.uk/content/EC_All-Pages/) {HR, Communications & Creative} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [Civil Aviation Authority graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial}
 - [National Nuclear Laboratory graduates](https://www.nnl.co.uk/careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
-- [National Physical Laboratory graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
+- [National Physical Laboratory (NPL) graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
 - [Ordnance Survey graduate scheme](https://www.ordnancesurvey.co.uk/careers/graduate-scheme) {Digital, Data & Cyber} {Science, Engineering & Environment} {Economics, Research & Analysis}
 <!-- site-content:end -->
