@@ -59,7 +59,7 @@ This repository contains the Markdown source, build tooling, and static assets t
 ## Contributing
 
 - Check issues for anything already being worked on, or open one before making large changes.
-- Keep Markdown content accessible: prefer descriptive link text and ensure new headings follow a logical hierarchy.
+- Keep Markdown content accessible. Prefer descriptive link text and ensure new headings follow a logical hierarchy.
 - When updating the list, run `npm run build` and check the generated `dist/index.html` to confirm no unintended regressions.
 
 <!-- site-content:start -->
