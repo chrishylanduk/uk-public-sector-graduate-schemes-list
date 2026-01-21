@@ -185,7 +185,7 @@ Please either:
 ### Science, environment & technology
 
 - [Driver and Vehicle Licensing Agency (DVLA) Digital Development Programmes](https://careers.dft.gov.uk/our-dft-family/driver-and-vehicle-licensing-agency/digital/#:~:text=DVLA%20Digital%20Development%20Programmes) {Digital, Data & Cyber}
-- [Environment Agency Environment and Science Graduate Training Scheme (ES-GTS)](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
+- [Environment Agency graduate schemes](https://environmentagencycareers.co.uk/early-careers/environment-and-science-graduate-training-scheme-es-gts/) {Science, Engineering & Environment}
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
