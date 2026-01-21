@@ -215,7 +215,6 @@ Please either:
 - [Pathways to Planning](https://www.local.gov.uk/pathways-to-planning) {Education & Planning}
 
 ### East of England
-- [Basildon Council graduate programme](https://www.basildon.gov.uk/article/4342/Graduate-recruitment-at-Basildon-Council) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Essex County Council Graduate Programmes](https://workingforessex.com/working-here/entry-to-work#:~:text=Graduate%20Programmes) {Finance, Audit & Commercial} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
