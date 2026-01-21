@@ -17,6 +17,7 @@ This repository contains the Markdown source, build tooling, and static assets t
 
 - Optional: `pre-commit install` to enable the configured lint/format hooks, or run them manually with `pre-commit run --all-files`.
 - Client-side code is authored in modern JavaScript and must be transpiled; install dependencies so `esbuild` is available before running the build.
+- `npm run check-links` – validate all URLs in README.md. This checks that links return HTTP 200 (not redirected or broken). Configuration is in `.mlcrc`.
 
 ### Project structure
 
