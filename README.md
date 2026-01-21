@@ -43,10 +43,12 @@ This repository contains the Markdown source, build tooling, and static assets t
   ```markdown
   - [Example Scheme](https://example.org) {Policy}
 
-    Runs annual campaigns focused on environmental policy.
+    This is a note
   ```
 
   That indented paragraph will appear with the same styling as other descriptive text on the page.
+
+  Notes should only be used when critical information (how to apply) is not in the main link destination.
 
 ### Role types and colours
 
@@ -91,7 +93,7 @@ Please either:
 - [Government Economic Service (GES) Assistant Economist Graduate Scheme](https://www.gov.uk/guidance/assistant-economist-recruitment) {Economics, Research & Analysis}
 - [Government Operational Research Service (GORS) - Mainstream Recruitment Level 2](https://www.gov.uk/guidance/government-operational-research-service-mainstream-recruitment) {Economics, Research & Analysis}
 - [Government Social Research (GSR) Research Officer Graduate Scheme](https://www.gov.uk/guidance/gsr-social-research-scheme) {Economics, Research & Analysis}
-- [Government Statistical Service (GSS) Statistical Officers](https://www.civil-service-careers.gov.uk/professions/government-statistical-service/) {Economics, Research & Analysis}
+- [Government Statistical Service (GSS) Statistical Officers](https://analysisfunction.civilservice.gov.uk/government-statistical-service-and-statistician-group/gss-careers-and-learning/joining-us/#joining-as-a-government-statistician) {Economics, Research & Analysis}
 
 ### Legal & regulatory departments
 
@@ -101,17 +103,34 @@ Please either:
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
 - [Office for Product Safety and Standards (OPSS) Regulatory Leaders Graduate Scheme (RLGS)](https://opss-careers.co.uk/rlgs/) {Regulation & Enforcement} {Generalist & Leadership} {Policy}
 - [Ofqual graduate scheme](https://www.linkedin.com/posts/ofqual_apply-now-for-our-first-ever-graduate-scheme-activity-7170372433059766272-agCH) {Regulation & Enforcement} {Education & Planning}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Ofwat Graduate Development Programme](https://www.ofwat.gov.uk/early-careers/grads) {Policy} {Economics, Research & Analysis} {Science, Engineering & Environment} {Regulation & Enforcement} {Legal, Risk & Compliance}
 - [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 
 ### Departmental & policy schemes
 
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/#:~:text=Graduate%20Development%20Programme) {Policy} {Economics, Research & Analysis}
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/) {Digital, Data & Cyber}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Ministry of Defence (MoD) Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM) {Finance, Audit & Commercial} {Economics, Research & Analysis}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Ministry of Defence (MoD) Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure) {Finance, Audit & Commercial}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+- [Ministry of Defence (MoD) Defence Infrastructure Organisation (DIO) graduate roles](https://www.linkedin.com/posts/government-property_dio-activity-7402636625337548801-oXKV) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Education & Planning}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Policy} {Operational Delivery & Public Services}
 
   Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
@@ -152,6 +171,8 @@ Please either:
 - [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [Nuclear Graduates](https://nucleargraduates.com/disciplines) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Submarine Delivery Agency (SDA) graduate schemes](https://www.gov.uk/government/publications/sda-graduate-schemes/sda-graduate-schemes) {Project, Infrastructure & Property Management} {Science, Engineering & Environment}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [UK Atomic Energy Authority (UKAEA) Graduate Development Programme](https://careers.ukaea.uk/early-careers/graduate-scheme/) {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Infrastructure, transport & energy
@@ -166,6 +187,8 @@ Please either:
 - [Driver and Vehicle Licensing Agency (DVLA) Digital Development Programmes](https://careers.dft.gov.uk/our-dft-family/driver-and-vehicle-licensing-agency/digital/#:~:text=DVLA%20Digital%20Development%20Programmes) {Digital, Data & Cyber}
 - [Environment Agency Environment and Science Graduate Training Scheme (ES-GTS)](https://environmentagencycareers.co.uk/current-opportunities/environment-and-science-graduate-training-scheme/) {Science, Engineering & Environment}
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 - [Intellectual Property Office (IPO) Associate Patent Examiner](https://www.civil-service-careers.gov.uk/departments/working_for_ipo/ipo-opportunities) {Science, Engineering & Environment}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/) {Science, Engineering & Environment} {HR, Communications & Creative} {Digital, Data & Cyber} {Project, Infrastructure & Property Management}
