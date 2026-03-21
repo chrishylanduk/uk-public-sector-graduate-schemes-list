@@ -100,6 +100,7 @@ Please either:
 - [Competition and Markets Authority (CMA) Delivery Graduate Scheme](https://www.civil-service-careers.gov.uk/cma-graduate-scheme/) {Generalist & Leadership} {Regulation & Enforcement} {Legal, Risk & Compliance} {Economics, Research & Analysis}
 - [Crown Prosecution Service (CPS), Legal trainee scheme](https://www.cps.gov.uk/careers/legal-trainee) {Legal, Risk & Compliance}
 - [Government Legal Profession, Legal trainee scheme](https://www.gov.uk/guidance/government-legal-service-gls-legal-trainee-scheme-how-to-apply) {Legal, Risk & Compliance}
+- [HMRC Finance Graduate Scheme](https://www.civil-service-careers.gov.uk/hmrc-finance-apprenticeships/#:~:text=About%20our%20Finance%20Graduate%20Scheme) {Finance, Audit & Commercial}
 - [HMRC Tax Specialist Programme](https://careers.hmrc.gov.uk/tax-graduates) {Regulation & Enforcement} {Finance, Audit & Commercial} {Legal, Risk & Compliance}
 - [Office for Product Safety and Standards (OPSS) Regulatory Leaders Graduate Scheme (RLGS)](https://opss-careers.co.uk/rlgs/) {Regulation & Enforcement} {Generalist & Leadership} {Policy}
 - [Ofqual graduate scheme](https://www.linkedin.com/posts/ofqual_apply-now-for-our-first-ever-graduate-scheme-activity-7170372433059766272-agCH) {Regulation & Enforcement} {Education & Planning}
@@ -115,7 +116,6 @@ Please either:
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
-- [HM Treasury Graduate Programme](https://www.civil-service-careers.gov.uk/departments/working-for-hm-treasury/#:~:text=Graduate%20Development%20Programme) {Policy} {Economics, Research & Analysis}
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
