@@ -195,7 +195,7 @@ Please either:
 
 ### Health, safety & standards
 
-- [Health and Safety Executive (HSE) Trainee Inspector of Health and Safety programme](https://careers.hse.gov.uk/professions/health-and-safety-inspectors/) {Regulation & Enforcement}
+- [Health and Safety Executive (HSE) Trainee Inspector of Health and Safety programme](https://www.hse.gov.uk/careers/index.htm) {Regulation & Enforcement}
 - [Medicines & Healthcare products Regulatory Agency (MHRA) Graduate Scheme](https://www.gov.uk/government/publications/mhra-graduate-scheme/mhra-graduate-scheme) {Science, Engineering & Environment} {Regulation & Enforcement}
 
 ## Nations
@@ -253,9 +253,6 @@ Please either:
 ### East Midlands
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
-### West Midlands
-- [Solihull Council graduate programmes](https://www.solihull.gov.uk/jobs-and-training/graduate-opportunities) {Operational Delivery & Public Services} {Economics, Research & Analysis} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
-
 ### North West England
 - [Manchester City Council Graduate Scheme](https://jobs.manchester.gov.uk/kickstart-your-career.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 
@@ -277,7 +274,6 @@ Please either:
 - [NHS England Scientist Training programme](https://www.nshcs.hee.nhs.uk/programmes/stp) {Health, Policing & Social Care Professions} {Science, Engineering & Environment}
 - [NHS Graduate Management Training Scheme](https://graduates.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Finance, Audit & Commercial} {HR, Communications & Creative} {Digital, Data & Cyber} {Operational Delivery & Public Services}
 - [NHS Scotland Management Training Scheme](https://www.mts.scot.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
-- [NHS South, Central and West (NHS SCW) graduate management programme](https://scwcsu.nhs.uk/work-for-us/graduate-scheme) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Project, Infrastructure & Property Management}
 - [NHS Wales Graduate Management Scheme](https://nhswalesleadershipportal.heiw.wales/graduate-programme) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
 ## Police
