@@ -106,6 +106,7 @@ Please either:
 - [Ofqual graduate scheme](https://www.linkedin.com/posts/ofqual_apply-now-for-our-first-ever-graduate-scheme-activity-7170372433059766272-agCH) {Regulation & Enforcement} {Education & Planning}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Ofwat Graduate Development Programme](https://www.ofwat.gov.uk/early-careers/grads) {Policy} {Economics, Research & Analysis} {Science, Engineering & Environment} {Regulation & Enforcement} {Legal, Risk & Compliance}
 - [Serious Fraud Office (SFO) Trainee Investigator Programme](https://www.gov.uk/government/news/serious-fraud-office-launches-2025-trainee-investigator-programme) {Regulation & Enforcement} {Legal, Risk & Compliance}
 
@@ -116,21 +117,27 @@ Please either:
 - [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Home Office Digital, Data and Technology: Dynamic Graduate Scheme](https://hodigital.blog.gov.uk/2025/06/25/graduates-accelerate-your-digital-and-data-career-on-our-dynamic-graduate-scheme/) {Digital, Data & Cyber}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Ministry of Defence (MoD) Cost Assurance and Analysis Service (CAAS) Estimating Capability Development Scheme (ECDS)](https://www.linkedin.com/posts/gary-collier-estimating_cost-assurance-analysis-service-caas-activity-7321107097511751680-Y2hM) {Finance, Audit & Commercial} {Economics, Research & Analysis}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Ministry of Defence (MoD) Defence Commercial Graduate Programme](https://www.gov.uk/government/publications/defence-commercial-graduate-programme-brochure) {Finance, Audit & Commercial}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Ministry of Defence (MoD) Defence Infrastructure Organisation (DIO) graduate roles](https://www.linkedin.com/posts/government-property_dio-activity-7402636625337548801-oXKV) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Education & Planning}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Yorkshire Development Scheme](https://justicejobs.tal.net/vx/mobile-0/appcentre-2/brand-2/candidate/so/pm/1/pl/1/opp/57710-57710-HR-Lead-and-Coach-of-the-Yorkshire-Development-Scheme#:~:text=The%20Yorkshire%20Development%20Programme%20is%20a%20joint%20initiative%20from%20the%20MoJ%20and%20DWP%20who,different%20roles.%20We%20expect%20them%20to%20compete%20for%20leadership%20roles%20at%20Grade%207%20Level) {Policy} {Operational Delivery & Public Services}
 
   Historically, only recruits via Fast Stream near-misses (the Direct Appointment Scheme)
@@ -173,6 +180,7 @@ Please either:
 - [Submarine Delivery Agency (SDA) graduate schemes](https://www.gov.uk/government/publications/sda-graduate-schemes/sda-graduate-schemes) {Project, Infrastructure & Property Management} {Science, Engineering & Environment}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [UK Atomic Energy Authority (UKAEA) Graduate Development Programme](https://careers.ukaea.uk/early-careers/graduate-scheme/) {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Infrastructure, transport & energy
@@ -189,6 +197,7 @@ Please either:
 - [Government Office for Science graduate internship scheme](https://governmentscienceandengineering.blog.gov.uk/2019/06/26/graduates-wanted-apply-now-for-the-2019-gos-internship-programme-3/) {Science, Engineering & Environment}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [Intellectual Property Office (IPO) Associate Patent Examiner](https://www.civil-service-careers.gov.uk/departments/working_for_ipo/ipo-opportunities) {Science, Engineering & Environment}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/) {Science, Engineering & Environment} {HR, Communications & Creative} {Digital, Data & Cyber} {Project, Infrastructure & Property Management}
@@ -238,28 +247,35 @@ Please either:
 - [Pathways to Planning](https://www.local.gov.uk/pathways-to-planning) {Education & Planning}
 
 ### East of England
+
 - [Essex County Council Graduate Programmes](https://workingforessex.com/working-here/entry-to-work#:~:text=Graduate%20Programmes) {Finance, Audit & Commercial} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk Graduate Partnership](https://recruitment.westsuffolk.gov.uk/workforce/graduates.cfm) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
 
 ### South East England
+
 - [Hampshire County Council graduate schemes](https://www.hants.gov.uk/jobs/graduateschemes) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services} {Generalist & Leadership}
 - [Kent County Council Graduate Programme](https://jobs.kent.gov.uk/working-here/starting-your-career-with-us/kent-graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### London
+
 - [Richmond and Wandsworth Council Graduate Development Programme](https://recruitment.richmondandwandsworth.gov.uk/graduates/) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### East Midlands
+
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### North West England
+
 - [Manchester City Council Graduate Scheme](https://jobs.manchester.gov.uk/kickstart-your-career.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### Yorkshire and the Humber
+
 - [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### Scotland
+
 - [Falkirk Council graduate scheme](https://www.falkirk.gov.uk/jobs-careers-and-training/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Glasgow City Council Audit Trainee programme](https://www.glasgow.gov.uk/article/10918/Glasgow-City-Council-Audit-Trainee-programme) {Finance, Audit & Commercial}
 - [Glasgow City Council Graduate Development Programme](https://glasgow.gov.uk/article/4380/Graduate-Opportunities) {Generalist & Leadership} {Operational Delivery & Public Services}

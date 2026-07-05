@@ -11,7 +11,9 @@ function buildOpenGraphTags({ pageUrl, pageTitle, description, lastModified }) {
     `<meta property="og:title" content="${escapeHtml(pageTitle)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:site_name" content="${escapeHtml(pageTitle)}">`,
-    lastModified ? `<meta property="article:modified_time" content="${escapeHtml(lastModified.toISOString())}">` : "",
+    lastModified
+      ? `<meta property="article:modified_time" content="${escapeHtml(lastModified.toISOString())}">`
+      : "",
   ];
 
   return tags.filter(Boolean).join("\n    ");
@@ -28,7 +30,12 @@ function buildTwitterTags({ pageUrl, pageTitle, description }) {
   return tags.filter(Boolean).join("\n    ");
 }
 
-function buildStructuredData({ pageUrl, pageTitle, description, lastModified }) {
+function buildStructuredData({
+  pageUrl,
+  pageTitle,
+  description,
+  lastModified,
+}) {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -58,12 +65,27 @@ function buildLastModifiedMeta(lastModified) {
   return `<meta http-equiv="last-modified" content="${escapeHtml(lastModified.toUTCString())}">`;
 }
 
-export function buildMetadata({ pageTitle, description, pageUrl, lastModified }) {
+export function buildMetadata({
+  pageTitle,
+  description,
+  pageUrl,
+  lastModified,
+}) {
   return {
     canonicalTag: buildCanonicalTag(pageUrl),
-    openGraphTags: buildOpenGraphTags({ pageUrl, pageTitle, description, lastModified }),
+    openGraphTags: buildOpenGraphTags({
+      pageUrl,
+      pageTitle,
+      description,
+      lastModified,
+    }),
     twitterTags: buildTwitterTags({ pageUrl, pageTitle, description }),
-    structuredData: buildStructuredData({ pageUrl, pageTitle, description, lastModified }),
+    structuredData: buildStructuredData({
+      pageUrl,
+      pageTitle,
+      description,
+      lastModified,
+    }),
     lastModifiedMeta: buildLastModifiedMeta(lastModified),
   };
 }

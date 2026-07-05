@@ -180,13 +180,18 @@ function buildSite() {
   const pageUrl = resolveSiteUrl();
   const lastModified = new Date();
 
-  const { canonicalTag, openGraphTags, twitterTags, structuredData, lastModifiedMeta } =
-    buildMetadata({
-      pageTitle,
-      description,
-      pageUrl,
-      lastModified,
-    });
+  const {
+    canonicalTag,
+    openGraphTags,
+    twitterTags,
+    structuredData,
+    lastModifiedMeta,
+  } = buildMetadata({
+    pageTitle,
+    description,
+    pageUrl,
+    lastModified,
+  });
 
   const introHtml = introHtmlParts.join("\n\n        ");
   const navHtml = buildNavHtml(navItems);
