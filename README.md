@@ -301,6 +301,7 @@ Please either:
 ## Public Corporations
 
 - [BBC graduate schemes](https://careers.bbc.co.uk/content/EC_All-Pages/) {HR, Communications & Creative} {Legal, Risk & Compliance} {Digital, Data & Cyber}
+- [British International Investment (BII) Investment and Impact Graduate Analyst programme](https://www.bii.co.uk/en/careers/investment-and-impact-graduate-analyst-programme/) {Finance, Audit & Commercial} {Economics, Research & Analysis}
 - [Civil Aviation Authority (CAA) graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
 - [National Nuclear Laboratory (UKNNL) graduates](https://www.nnl.co.uk/careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [National Physical Laboratory (NPL) graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
