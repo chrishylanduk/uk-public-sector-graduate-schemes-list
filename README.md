@@ -114,7 +114,7 @@ Please either:
 
 ### Departmental & policy schemes
 
-- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://findajob.dwp.gov.uk/details/16299166) {Policy}
+- [Department of Health & Social Care (DHSC) Health Policy Fast Track Scheme](https://www.graduates.nhs.uk/wp-content/uploads/2021/10/DHSC-HPFTS-2022-Candidate-Pack.pdf) {Policy}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 
@@ -150,6 +150,7 @@ Please either:
 
 ## Intelligence Services
 
+- [GCHQ graduate roles](https://recruitmentservices.applicationtrack.com/vx/lang-en-GB/mobile-0/appcentre-a36/brand-7/candidate/jobboard/vacancy/3) {Science, Engineering & Environment} {Digital, Data & Cyber} {Economics, Research & Analysis} {Project, Infrastructure & Property Management}
 - [MI5 (Security Service) graduate programmes](https://www.mi5.gov.uk/careers/opportunities/graduates) {Digital, Data & Cyber} {Economics, Research & Analysis}
 - [MI6 (Secret Intelligence Service) Technology Graduate Development Programme](https://www.sis.gov.uk/careers/technologists/technology-graduate-development-programme) {Digital, Data & Cyber}
 
@@ -298,12 +299,13 @@ Please either:
 - [National Crime Agency (NCA) Officer Development Programme (ODP)](https://www.nationalcrimeagency.gov.uk/careers/how-to-join-the-nca/entry-level-roles?view=article&id=3073:nca-officer-development-programme-odp&catid=10:careers) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [Police Degree Holder Entry Programme (DHEP)](https://www.joiningthepolice.co.uk/application-process/ways-in-to-policing/degree-holder-entry-programme-dhep) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 - [Police Now](http://www.policenow.org.uk/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
+- [Police Scotland Digital Graduate Programme](https://policescotland-spacareers.tal.net/vx/spa-1/candidate/cms/Graduate%20entry%20-%20about%20the%20scheme) {Digital, Data & Cyber}
 - [South Wales Police Graduate Programme](https://www.south-wales.police.uk/police-forces/south-wales-police/areas/careers/careers/staff-roles/graduate-opportunities/) {Health, Policing & Social Care Professions} {Regulation & Enforcement} {Operational Delivery & Public Services}
 
 ## Prisons and probation
 
+- [Future Prison Leaders Programme](https://prisonandprobationjobs.gov.uk/prison-service-roles/future-prison-leaders-programme/) {Operational Delivery & Public Services} {Generalist & Leadership}
 - [HM Prison & Probation Service Trainee Probation Officer Programme (PQiP)](https://prisonandprobationjobs.gov.uk/roles-at-hmpps/overview-of-the-probation-officer-role/probation-officer-training-pqip/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
-- [Unlocked](http://unlockedgrads.org.uk/) {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
 ## Social work
 
