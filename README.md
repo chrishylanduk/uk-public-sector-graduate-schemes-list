@@ -118,6 +118,8 @@ Please either:
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 
+- [HM Treasury Graduate Policy Programme](https://hmtreasurycareers.co.uk/graduate-policy-programme/about-the-programme/) {Policy}
+
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
@@ -250,7 +252,6 @@ Please either:
 ### East of England
 
 - [Essex County Council Graduate Programmes](https://workingforessex.com/working-here/entry-to-work#:~:text=Graduate%20Programmes) {Finance, Audit & Commercial} {Legal, Risk & Compliance} {Digital, Data & Cyber}
-- [Hertfordshire County Council graduate programme](https://jobs.hertfordshire.gov.uk/departments/grads-apprentices-and-work-experience/graduate-scheme-at-hertfordshire-county-council.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Suffolk County Council graduate scheme](https://careers.suffolk.gov.uk/home/careers/early-careers/graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Suffolk Graduate Partnership](https://recruitment.westsuffolk.gov.uk/workforce/graduates.cfm) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
 
