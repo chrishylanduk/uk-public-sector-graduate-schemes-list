@@ -1,0 +1,14 @@
+[tools]
+node = "24.21.0"
+
+[tasks.install]
+description = "Install dependencies from package-lock.json"
+run = "npm ci"
+
+[tasks.build]
+description = "Build the graduate schemes website"
+run = "npm run build"
+
+[tasks.check-links]
+description = "Check links in README.md"
+run = "npm run check-links"

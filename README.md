@@ -6,11 +6,15 @@ This repository contains the Markdown source, build tooling, and static assets t
 
 ### Requirements
 
-- Node.js 18+ (the build scripts run as native ES modules).
+- [mise](https://mise.jdx.dev/) manages the Node.js version pinned in `mise.toml`.
+- Run `mise install` after cloning.
 
 ### Install & build
 
-- `npm install` – install dependencies.
+- `mise run install` – install dependencies from `package-lock.json`.
+- `mise run build` – build with the project's pinned Node.js version.
+- With mise shell activation enabled, the usual npm commands below also use that version.
+- `npm install` – add or update dependencies.
 - `npm run build` – regenerate `dist/index.html`, copy static assets, and transpile the client bundle with `esbuild`. The build exits with an error if `esbuild` is missing.
 
 ### Tooling
@@ -180,6 +184,7 @@ Please either:
 - [Defence Science and Technology Laboratory (Dstl) graduate scheme](https://www.gov.uk/guidance/become-a-dstl-graduate-or-student) {Science, Engineering & Environment}
 - [Nuclear Decommissioning Authority (NDA) group graduate programme](https://ndagroup.careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [Nuclear Graduates](https://nucleargraduates.com/disciplines) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber} {HR, Communications & Creative}
+- [Sellafield Ltd Graduate Development Scheme](https://careers.sellafieldsite.co.uk/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [Submarine Delivery Agency (SDA) graduate schemes](https://www.gov.uk/government/publications/sda-graduate-schemes/sda-graduate-schemes) {Project, Infrastructure & Property Management} {Science, Engineering & Environment}
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
