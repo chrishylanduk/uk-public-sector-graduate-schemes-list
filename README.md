@@ -234,7 +234,6 @@ Please either:
 - [Invest Northern Ireland Graduate Gateway Programme](https://www.investni.com/about-us/careers/graduate-gateway-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Northern Ireland Audit Office (NIAO) Trainee Accountant Scheme](https://www.niauditoffice.gov.uk/trainee-accountant-scheme) {Finance, Audit & Commercial}
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net) {Generalist & Leadership} {Policy}
-- [Northern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
 - [Northern Ireland Water Entry Level Academy](https://www.niwater.com/about-us/news/2025/ni-water-recruiting-over-twenty-apprentices-and-graduates-across-northern-ireland) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
 
 ### Scotland
