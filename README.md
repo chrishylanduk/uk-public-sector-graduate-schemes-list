@@ -38,8 +38,11 @@ This repository contains the Markdown source, build tooling, and static assets t
 ### Adding a new scheme
 
 - Use a Markdown list item in the format `- [Organisation and scheme name](https://example.org) {Role Type One} {Role Type Two}`.
+- Use the scheme name exactly as the employer writes it on its own site, including capitalisation (e.g. "Graduate Gateway Programme", not "graduate scheme").
 - Link directly to the official scheme or recruitment page whenever possible
-- Role types must appear as `{Role Type}` tags, matching the canonical labels defined in `config/roles.json`. Multiple tags are allowed and should be ordered from most to least relevant.
+- If the scheme is one section of a longer page, link to that section: use the heading's `#anchor` if it has one, otherwise a text fragment (e.g. `#:~:text=Graduate%20Programmes`).
+- Role types must appear as `{Role Type}` tags, matching the canonical labels defined in `config/roles.json`. Never guess these, only base them on the link. Multiple tags are allowed and should be ordered from most to least relevant.
+- Universities are out of scope.
 - If a scheme belongs in a new organisation type section, add a heading (`##`, `###`, etc.) before the list so the generated navigation stays organised.
 - Ensure the scheme is inserted in alphabetical order within its section.
 - To include an explanatory note, add a blank line followed by an indented paragraph beneath the list item:
@@ -171,9 +174,11 @@ Please either:
 
 - [Bank of England graduate schemes](https://www.bankofengland.co.uk/careers/early-careers#:~:text=Graduate%20programmes) {Finance, Audit & Commercial} {Economics, Research & Analysis} {Legal, Risk & Compliance} {Digital, Data & Cyber} {Regulation & Enforcement}
 - [Care Quality Commission (CQC) data and insight graduate jobs](https://www.cqc.org.uk/about-us/jobs/data-and-insight-jobs-cqc) {Digital, Data & Cyber} {Economics, Research & Analysis}
-- [Financial Conduct Authority (FCA) graduate schemes](https://www.fca.org.uk/careers/early-careers) {Regulation & Enforcement}{Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Digital, Data & Cyber}
+- [Financial Conduct Authority (FCA) graduate schemes](https://www.fca.org.uk/careers/early-careers) {Regulation & Enforcement} {Finance, Audit & Commercial} {Economics, Research & Analysis} {HR, Communications & Creative} {Digital, Data & Cyber}
+- [Information Commissioner's Office (ICO) graduate scheme](https://ico.org.uk/about-the-ico/jobs/early-careers-at-the-ico/#graduate) {Regulation & Enforcement} {Legal, Risk & Compliance} {Generalist & Leadership}
 - [Ofcom graduate programme](https://careers.ofcom.org.uk/careers/early-careers/graduate-programme/) {Policy} {Digital, Data & Cyber} {Economics, Research & Analysis} {Regulation & Enforcement} {Science, Engineering & Environment}
 - [Ofgem Graduate Development Programme](https://www.ofgem.gov.uk/about-us/working-ofgem#heading-ofgem-graduate-development-programme) {Regulation & Enforcement} {Economics, Research & Analysis} {Policy} {Project, Infrastructure & Property Management} {Generalist & Leadership}
+- [Student Loans Company Graduate Programme](https://www.civil-service-careers.gov.uk/student-loans-company-hub/student-loans-company-emerging-talent/) {Operational Delivery & Public Services} {Digital, Data & Cyber} {Project, Infrastructure & Property Management} {HR, Communications & Creative}
 - [UK Government Investments (UKGI) graduate schemes](https://www.ukgi.org.uk/working-for-us/graduate-programme/) {Legal, Risk & Compliance} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Generalist & Leadership}
 - [Valuation Office Agency graduate schemes](https://www.gov.uk/guidance/valuation-office-agency-graduate-scheme) {Project, Infrastructure & Property Management} {Finance, Audit & Commercial}
 
@@ -208,6 +213,7 @@ Please either:
 
 - [Intellectual Property Office (IPO) Associate Patent Examiner](https://www.civil-service-careers.gov.uk/departments/working_for_ipo/ipo-opportunities) {Science, Engineering & Environment}
 - [Met Office Graduate Development Scheme](https://careers.metoffice.gov.uk/early-careers/graduate-development-scheme) {Science, Engineering & Environment} {Digital, Data & Cyber} {HR, Communications & Creative}
+- [MRC Laboratory of Medical Sciences (LMS) Science Technology Graduate Programme](https://lms.mrc.ac.uk/work-and-study/graduate-training-programme/) {Science, Engineering & Environment}
 - [Science and Technology Facilities Council (STFC) graduates](https://stfccareers.co.uk/graduates/) {Science, Engineering & Environment} {HR, Communications & Creative} {Digital, Data & Cyber} {Project, Infrastructure & Property Management}
 
 ### Health, safety & standards
@@ -225,6 +231,7 @@ Please either:
 
 ### Northern Ireland
 
+- [Invest Northern Ireland Graduate Gateway Programme](https://www.investni.com/about-us/careers/graduate-gateway-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Northern Ireland Audit Office (NIAO) Trainee Accountant Scheme](https://www.niauditoffice.gov.uk/trainee-accountant-scheme) {Finance, Audit & Commercial}
 - [Northern Ireland Civil Service (NICS) Graduate Management Programme](https://careers-ext.hrconnect.nigov.net) {Generalist & Leadership} {Policy}
 - [Northern Ireland Housing Executive Graduate Trainees](https://www.nihe.gov.uk/careers/early-careers) {Digital, Data & Cyber} {HR, Communications & Creative} {Operational Delivery & Public Services} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
@@ -271,6 +278,7 @@ Please either:
 
 ### East Midlands
 
+- [Nottingham City Council graduate programme](https://nottinghamcity.gov.uk/information-for-residents/job-opportunities/graduate-recruitment/) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### North West England
@@ -289,13 +297,19 @@ Please either:
 
 ### Wales
 
+- [Isle of Anglesey County Council Dyfodol Môn graduate scheme](https://www.anglesey.gov.wales/en/newsroom/news/dyfodol-mon-graduate-scheme-returns) {Generalist & Leadership} {Operational Delivery & Public Services}{Project, Infrastructure & Property Management}
+
+  When open, roles are advertised on [Isle of Anglesey County Council vacancies](https://www.anglesey.gov.wales/en/Council/Jobs-careers-and-training/Current-job-vacancies.aspx)
+
 - [Carmarthenshire County Council Graduate Programme](https://www.carmarthenshire.gov.wales/council-services/jobs-careers/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Rhondda Cynon Taff Council Graduate Programme](https://www.rctcbc.gov.uk/EN/Resident/JobsandTraining/Jobs/ApprenticeshipsGraduateSchemes/GraduateScheme/AbouttheGraduateProgramme.aspx) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
 
 ## Healthcare and the NHS
 
+- [Manchester University NHS Foundation Trust (MFT) Graduate Programme](https://mft.nhs.uk/careers/roles/mft-graduate-programme/) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services} {Digital, Data & Cyber}
 - [NHS England Scientist Training programme](https://www.nshcs.hee.nhs.uk/programmes/stp) {Health, Policing & Social Care Professions} {Science, Engineering & Environment}
 - [NHS Graduate Management Training Scheme](https://graduates.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Finance, Audit & Commercial} {HR, Communications & Creative} {Digital, Data & Cyber} {Operational Delivery & Public Services}
+- [NHS Procurement Graduate Scheme](https://www.pathways2nhsprocurement.com/graduateschemevacancies) {Finance, Audit & Commercial}
 - [NHS Scotland Management Training Scheme](https://www.mts.scot.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 - [NHS Wales Graduate Management Scheme](https://nhswalesleadershipportal.heiw.wales/graduate-programme) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
@@ -327,7 +341,14 @@ Please either:
 - [BBC graduate schemes](https://careers.bbc.co.uk/content/EC_All-Pages/) {HR, Communications & Creative} {Legal, Risk & Compliance} {Digital, Data & Cyber}
 - [British International Investment (BII) Investment and Impact Graduate Analyst programme](https://www.bii.co.uk/en/careers/investment-and-impact-graduate-analyst-programme/) {Finance, Audit & Commercial} {Economics, Research & Analysis}
 - [Civil Aviation Authority (CAA) graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
+- [National Energy System Operator (NESO) graduate programme](https://www.neso.energy/careers/early-careers-neso#Graduate-Programme) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
 - [National Nuclear Laboratory (UKNNL) graduates](https://www.nnl.co.uk/careers/early-careers/graduates/) {Science, Engineering & Environment} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [National Physical Laboratory (NPL) graduates](https://www.npl.co.uk/careers/graduates) {Science, Engineering & Environment}
 - [Ordnance Survey graduate scheme](https://www.ordnancesurvey.co.uk/careers/graduate-scheme) {Digital, Data & Cyber} {Science, Engineering & Environment} {Economics, Research & Analysis}
 <!-- site-content:end -->
+
+## Schemes without evidence of recent activity
+
+These scheme pages exist but we can't find evidence that they're still recruiting. They sit outside the site-content block, so they aren't published. Move an entry back into its section above once there's evidence of a current or recent intake.
+
+- [Royal Mint graduate programme](https://royalmint.com/careers/the-graduate-programme-at-the-royal-mint) {Generalist & Leadership} {Operational Delivery & Public Services} {Finance, Audit & Commercial}
