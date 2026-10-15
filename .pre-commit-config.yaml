@@ -48,6 +48,16 @@ repos:
         types: [css]
         pass_filenames: false
 
+  # --- Accessibility testing ---
+  - repo: local
+    hooks:
+      - id: accessibility
+        name: Accessibility (axe)
+        entry: npm run test:a11y
+        language: system
+        files: ^(README\.md|templates/|static/|client/|scripts/|config/|tests/|playwright\.config\.js)
+        pass_filenames: false
+
   # --- HTML linting ---
   - repo: local
     hooks:

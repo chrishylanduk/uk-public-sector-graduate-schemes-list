@@ -21,6 +21,7 @@ This repository contains the Markdown source, build tooling, and static assets t
 
 - Optional: `pre-commit install` to enable the configured lint/format hooks, or run them manually with `pre-commit run --all-files`.
 - Client-side code is authored in modern JavaScript and must be transpiled; install dependencies so `esbuild` is available before running the build.
+- `npm run test:a11y` (or `mise run test-a11y`) – build the site and check it against WCAG 2.2 AA with [axe-core](https://github.com/dequelabs/axe-core) in headless Chromium, covering the initial page and the main interactive states (role filter, search, mobile navigation, high contrast). Tests live in `tests/`. Run `npx playwright install chromium` once after installing dependencies. Automated checks catch only some accessibility issues, so changes to layout or interaction still need manual keyboard and screen reader testing.
 - `npm run check-links` – validate all URLs in README.md. This checks that links return HTTP 200 (not redirected or broken). Configuration is in `.mlcrc`.
 
 ### Project structure

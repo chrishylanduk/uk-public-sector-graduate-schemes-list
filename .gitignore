@@ -891,3 +891,7 @@ docs/_linkcheck/
 
 node_modules/
 dist/
+
+# Playwright
+test-results/
+playwright-report/
