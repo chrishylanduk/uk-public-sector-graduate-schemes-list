@@ -126,6 +126,10 @@ Please either:
 
   When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 
+- [DWP Digital University Leavers Engineering Programme](https://dwpdigital.blog.gov.uk/2026/02/19/kickstarting-a-career-with-our-university-leavers-graduate-programme/) {Digital, Data & Cyber}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [HM Treasury Graduate Policy Programme](https://hmtreasurycareers.co.uk/graduate-policy-programme/about-the-programme/) {Policy}
 
 - [Home Office Digital, Data and Technology: Digital Development Programme](https://careers.homeoffice.gov.uk/news/were-recruiting-graduates-apprentices-and-fixed-term-associates-to-join-our-digital-and-data-programmes) {Digital, Data & Cyber}
@@ -201,6 +205,10 @@ Please either:
 
 ### Infrastructure, transport & energy
 
+- [British Steel graduate roles](https://www.britishsteel.co.uk/70-apprentices-and-graduates-join-british-steel/) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
+
+  When open, roles are advertised on [British Steel's recruitment portal](https://ce0448li.webitrent.com/ce0448li_webrecruitment/wrd/run/ETREC179GF.open?WVID=072522P0kk)
+
 - [Civil Aviation Authority (CAA) graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
 - [HS2 graduate programme](https://mediacentre.hs2.org.uk/news/hs2-opens-recruitment-for-graduate-jobs) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
 - [National Energy System Operator (NESO) graduate programme](https://www.neso.energy/careers/early-careers-neso#Graduate-Programme) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
@@ -209,6 +217,10 @@ Please either:
 - [Vehicle Certification Agency Graduate Scheme](https://www.vehicle-certification-agency.gov.uk/careers/graduate/) {Science, Engineering & Environment} {Digital, Data & Cyber}
 
 ### Science, environment & technology
+
+- [Animal and Plant Health Agency (APHA) Veterinary Graduate Programme](https://vets.blog.gov.uk/2026/04/09/apha-launch-the-veterinary-graduate-programme/) {Science, Engineering & Environment}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
 
 - [Driver and Vehicle Licensing Agency (DVLA) Digital Development Programmes](https://careers.dft.gov.uk/our-dft-family/driver-and-vehicle-licensing-agency/digital/#:~:text=DVLA%20Digital%20Development%20Programmes) {Digital, Data & Cyber}
 - [Environment Agency graduate schemes](https://environmentagencycareers.co.uk/early-careers/environment-and-science-graduate-training-scheme-es-gts/) {Science, Engineering & Environment}
@@ -293,11 +305,14 @@ Please either:
 
 ### North West England
 
+- [Greater Manchester Our Place Graduate Programme](https://www.greater.jobs/be-part-of-the-good-growth-story) {Project, Infrastructure & Property Management} {Education & Planning} {Generalist & Leadership}
 - [Manchester City Council Graduate Scheme](https://jobs.manchester.gov.uk/kickstart-your-career.aspx) {Generalist & Leadership} {Operational Delivery & Public Services}
 
 ### Yorkshire and the Humber
 
+- [Leeds City Council IT Talent Management Programme](https://jobs.leeds.gov.uk/it-talent-management-programme) {Digital, Data & Cyber}
 - [North Yorkshire Council graduate scheme](https://www.northyorks.gov.uk/jobs-and-careers/our-apprenticeships-graduate-scheme-and-work-experience/our-graduate-scheme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [West Yorkshire Pension Fund graduate schemes](https://www.wypf.org.uk/corporate/careers/graduates/) {Digital, Data & Cyber} {Finance, Audit & Commercial} {Generalist & Leadership}
 
 ### Scotland
 
