@@ -167,7 +167,7 @@ Please either:
 ## Parliament and Oversight Bodies
 
 - [Houses of Parliament Graduate Development Programme](https://www.parliament.uk/about/careers/graduate-programme/) {Policy}
-- [National Audit Office (NAO) Chartered Accountancy Training Scheme](https://naoaccountancyscheme.co.uk) {Finance, Audit & Commercial}
+- [National Audit Office (NAO) Chartered Accountancy Training Scheme](https://www.nao.org.uk/nao-accountancy-training-scheme/) {Finance, Audit & Commercial}
 
 ## Public Bodies and Corporations
 
