@@ -211,6 +211,10 @@ Please either:
 
 - [Civil Aviation Authority (CAA) graduates](https://careers.caa.co.uk/go/Career-Programmes/3745001/) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber}
 - [HS2 graduate programme](https://mediacentre.hs2.org.uk/news/hs2-opens-recruitment-for-graduate-jobs) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management} {Digital, Data & Cyber}
+- [Maritime and Coastguard Agency (MCA) Graduate Surveyor Scheme](https://www.linkedin.com/posts/hiring-graduate-marinesurveyor-share-7453374877786599424-PwUC) {Science, Engineering & Environment} {Regulation & Enforcement}
+
+  When open, roles are advertised on [Civil Service Jobs](https://www.civilservicejobs.service.gov.uk/csr/index.cgi)
+
 - [National Energy System Operator (NESO) graduate programme](https://www.neso.energy/careers/early-careers-neso#Graduate-Programme) {Science, Engineering & Environment} {Finance, Audit & Commercial} {Project, Infrastructure & Property Management}
 - [National Highways graduate programmes](https://nationalhighways.co.uk/careers/career-programmes/graduate-programmes/) {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Digital, Data & Cyber} {Finance, Audit & Commercial} {Generalist & Leadership} {Legal, Risk & Compliance}
 - [Network Rail graduate schemes](https://www.earlycareers.networkrail.co.uk/programme/graduate/) {Project, Infrastructure & Property Management} {Science, Engineering & Environment} {Finance, Audit & Commercial} {Digital, Data & Cyber} {Economics, Research & Analysis} {Operational Delivery & Public Services}
@@ -303,6 +307,10 @@ Please either:
 - [Nottingham City Council graduate programme](https://nottinghamcity.gov.uk/information-for-residents/job-opportunities/graduate-recruitment/) {Generalist & Leadership} {Operational Delivery & Public Services}
 - [Nottinghamshire County Council Graduate Development Programme](https://www.nottinghamshire.gov.uk/jobs-and-working/working-for-us/learning-and-development/graduate-development-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
 
+### West Midlands
+
+- [Warwickshire County Council Trainee solicitor](https://www.warwickshire.gov.uk/warwickshire-legal-services/trainee-solicitor) {Legal, Risk & Compliance}
+
 ### North West England
 
 - [Greater Manchester Our Place Graduate Programme](https://www.greater.jobs/be-part-of-the-good-growth-story) {Project, Infrastructure & Property Management} {Education & Planning} {Generalist & Leadership}
@@ -327,15 +335,19 @@ Please either:
   When open, roles are advertised on [Isle of Anglesey County Council vacancies](https://www.anglesey.gov.wales/en/Council/Jobs-careers-and-training/Current-job-vacancies.aspx)
 
 - [Carmarthenshire County Council Graduate Programme](https://www.carmarthenshire.gov.wales/council-services/jobs-careers/graduate-programme) {Generalist & Leadership} {Operational Delivery & Public Services}
+- [Cyngor Gwynedd Cynllun Yfory Graduate Scheme](https://www.gwynedd.llyw.cymru/en/Council/Jobs-and-Careers/Apprenticeships-and-Graduates-Scheme/Cynllun-Yfory.aspx) {Generalist & Leadership}
 - [Rhondda Cynon Taff Council Graduate Programme](https://www.rctcbc.gov.uk/EN/Resident/JobsandTraining/Jobs/ApprenticeshipsGraduateSchemes/GraduateScheme/AbouttheGraduateProgramme.aspx) {Generalist & Leadership} {Operational Delivery & Public Services} {Project, Infrastructure & Property Management}
 
 ## Healthcare and the NHS
 
+- [Health and Social Care Northern Ireland (HSC) Graduate Management Scheme](https://bso.hscni.net/hsc-graduate-management-scheme-information-sessions/) {Generalist & Leadership} {Finance, Audit & Commercial} {HR, Communications & Creative} {Digital, Data & Cyber} {Science, Engineering & Environment}
 - [Manchester University NHS Foundation Trust (MFT) Graduate Programme](https://mft.nhs.uk/careers/roles/mft-graduate-programme/) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services} {Digital, Data & Cyber}
+- [NHS Education for Scotland (NES) Clinical scientist pre-registration training](https://www.nes.scot.nhs.uk/our-work/clinical-scientist-pre-registration-training/) {Health, Policing & Social Care Professions} {Science, Engineering & Environment}
 - [NHS England Scientist Training programme](https://www.nshcs.hee.nhs.uk/programmes/stp) {Health, Policing & Social Care Professions} {Science, Engineering & Environment}
 - [NHS Graduate Management Training Scheme](https://graduates.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Finance, Audit & Commercial} {HR, Communications & Creative} {Digital, Data & Cyber} {Operational Delivery & Public Services}
 - [NHS Procurement Graduate Scheme](https://www.pathways2nhsprocurement.com/graduateschemevacancies) {Finance, Audit & Commercial}
 - [NHS Scotland Management Training Scheme](https://www.mts.scot.nhs.uk) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
+- [NHS Wales Financial Management Graduate Scheme](https://financeacademy.nhs.wales/nhs-wales-finance-careers/financial-management-graduate-scheme/) {Finance, Audit & Commercial}
 - [NHS Wales Graduate Management Scheme](https://nhswalesleadershipportal.heiw.wales/graduate-programme) {Generalist & Leadership} {Health, Policing & Social Care Professions} {Operational Delivery & Public Services}
 
 ## Police
